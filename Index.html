@@ -1,5 +1,5 @@
 <!-- Chosen Palette: Slate & Indigo (Background: #f8fafc, Card: #ffffff, Primary: #4f46e5, Accent: #0284c7, Success: #10b981, Danger: #ef4444, Warning: #f59e0b) -->
-<!-- Application Structure Plan: A 3-tier adaptive test engine tailored for CDS, CSE, and Competitive Examinations. 1. Setup Panel: Exam Scheme Selector (CDS vs UPSC CSE vs Standard), Category & Sub-topic Filter (Maths: Arithmetic/Advanced, GS: Geo/Science/Polity/History/Ecology/CA, English: Grammar/Vocab, Reasoning), Mode & Timer Controls, Built-in Bank or JSON uploader. 2. Live Exam Panel: Adaptive subject header, mark-for-review toggle, rule indicator (+ve/-ve mark pill based on subject & selected scheme), question status palette, submit modal. 3. Analytics Dashboard: Exam-specific net score calculation engine, subject/topic accuracy matrix, Chart.js breakdown chart, and filterable solutions with full explanations. -->
+<!-- Application Structure Plan: A multi-tier adaptive test engine tailored for CDS, CSE, and Competitive Examinations. 1. Setup Panel: High-level Test Type filter (PYQ vs New Mocks vs All), Exam Scheme Selector (CDS vs UPSC CSE vs Standard), Category & Sub-topic Filter (Maths: Arithmetic/Advanced, GS: Geo/Science/Polity/History/Ecology/CA, English: Grammar/Vocab, Reasoning), Mode & Timer Controls, Built-in Bank or JSON uploader. 2. Live Exam Panel: Subject header, mark-for-review toggle, rule indicator (+ve/-ve mark pill based on subject & selected scheme), question status palette, submit modal. 3. Analytics Dashboard: Exam-specific net score calculation engine, subject/topic accuracy matrix, Chart.js breakdown chart, and filterable solutions with full explanations. -->
 <!-- Visualization & Content Choices: Chart.js for subject/topic accuracy breakdown, Tailwind CSS for layout, HTML Unicode icons for UI elements, Vanilla JS for real-time exam state engine and custom JSON parsing. NO SVG or Mermaid JS used. -->
 <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
 <!DOCTYPE html>
@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PrepMaster - CDS & CSE Mock Test Engine</title>
+    <title>PrepMaster - CDS & CSE Adaptive Mock Test Platform</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -90,14 +90,45 @@
         <section id="viewSetup" class="max-w-4xl mx-auto space-y-6">
             <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
                 <div class="border-b border-slate-100 pb-5 mb-6">
-                    <h2 class="text-2xl font-bold text-slate-900">Configure Your Mock Assessment</h2>
+                    <h2 class="text-2xl font-bold text-slate-900">Configure Your Assessment</h2>
                     <p class="text-sm text-slate-500 mt-1">
-                        Select exam marking patterns (CDS, CSE, or Standard), customize subject/topic filters, set timing preferences, and load questions.
+                        Select test source (PYQs vs New Mocks), exam marking schemes (CDS, CSE, Standard), subject/sub-topic filters, and timing parameters.
                     </p>
                 </div>
 
+                <!-- Test Type Category (PYQs vs New Mocks) -->
                 <div class="mb-6">
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">1. Select Marking Scheme Pattern</label>
+                    <label class="block text-sm font-semibold text-slate-700 mb-2">1. Select Test Category Type</label>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="typeAllCard">
+                            <div class="flex items-center space-x-2">
+                                <input type="radio" name="testType" value="all" checked onchange="updateTypeUI()" class="text-indigo-600 focus:ring-indigo-500">
+                                <span class="font-bold text-slate-800 text-sm">&#128203; Combined Bank</span>
+                            </div>
+                            <span class="text-xs text-slate-500 mt-2 block">Mix of Previous Year Questions & New Practice Mocks</span>
+                        </label>
+
+                        <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="typePyqCard">
+                            <div class="flex items-center space-x-2">
+                                <input type="radio" name="testType" value="pyq" onchange="updateTypeUI()" class="text-indigo-600 focus:ring-indigo-500">
+                                <span class="font-bold text-slate-800 text-sm">&#127891; Previous Year Papers (PYQ)</span>
+                            </div>
+                            <span class="text-xs text-slate-500 mt-2 block">Actual historical UPSC CDS / CSE questions</span>
+                        </label>
+
+                        <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="typeMockCard">
+                            <div class="flex items-center space-x-2">
+                                <input type="radio" name="testType" value="mock" onchange="updateTypeUI()" class="text-indigo-600 focus:ring-indigo-500">
+                                <span class="font-bold text-slate-800 text-sm">&#127919; New Mock Questions</span>
+                            </div>
+                            <span class="text-xs text-slate-500 mt-2 block">Fresh practice sets tailored to current exam trends</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Exam Marking Pattern -->
+                <div class="mb-6">
+                    <label class="block text-sm font-semibold text-slate-700 mb-2">2. Select Marking Scheme Pattern</label>
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
                         <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="schemeCdsCard">
                             <div class="flex items-center space-x-2">
@@ -120,16 +151,17 @@
                                 <input type="radio" name="examScheme" value="standard" onchange="updateSchemeUI()" class="text-indigo-600 focus:ring-indigo-500">
                                 <span class="font-bold text-slate-800 text-sm">Standard Pattern</span>
                             </div>
-                            <span class="text-xs text-slate-500 mt-2 block">Uniform (+1.0 / -0.25)<br>For general test prep</span>
+                            <span class="text-xs text-slate-500 mt-2 block">Uniform (+1.0 / -0.25)<br>For general practice</span>
                         </label>
                     </div>
                 </div>
 
+                <!-- Subject & Sub-topic Dropdowns -->
                 <div class="mb-6 bg-slate-50 p-4 rounded-xl border border-slate-200 grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">2. Main Subject Category</label>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">3. Main Subject Category</label>
                         <select id="selectCategory" onchange="updateTopicOptions()" class="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                            <option value="all">All Subjects (Combined Mock)</option>
+                            <option value="all">All Subjects (Full Length Test)</option>
                             <option value="Maths">Maths</option>
                             <option value="GS">General Studies (GS)</option>
                             <option value="English">English</option>
@@ -138,28 +170,29 @@
                     </div>
 
                     <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">3. Sub-Topic Filter</label>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">4. Sub-Topic Filter</label>
                         <select id="selectTopic" onchange="filterQuestionsData()" class="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                             <option value="all">Complete / All Sub-topics</option>
                         </select>
                     </div>
                 </div>
 
+                <!-- Execution Mode -->
                 <div class="mb-6">
-                    <label class="block text-sm font-semibold text-slate-700 mb-3">4. Test Execution Mode</label>
+                    <label class="block text-sm font-semibold text-slate-700 mb-3">5. Test Execution Mode</label>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <label class="border-2 rounded-xl p-4 cursor-pointer flex items-start space-x-3 transition hover:border-indigo-200" id="modeTimedCard">
                             <input type="radio" name="testMode" value="timed" checked onchange="toggleModeUI()" class="mt-1 text-indigo-600 focus:ring-indigo-500">
                             <div>
                                 <span class="font-bold text-slate-800 block text-sm">&#9200; Timed Assessment</span>
-                                <span class="text-xs text-slate-500 mt-0.5 block">Simulate exact exam timer with countdown alert.</span>
+                                <span class="text-xs text-slate-500 mt-0.5 block">Simulate exact exam timer with countdown alerts.</span>
                             </div>
                         </label>
                         <label class="border-2 rounded-xl p-4 cursor-pointer flex items-start space-x-3 transition hover:border-indigo-200" id="modeUntimedCard">
                             <input type="radio" name="testMode" value="untimed" onchange="toggleModeUI()" class="mt-1 text-indigo-600 focus:ring-indigo-500">
                             <div>
                                 <span class="font-bold text-slate-800 block text-sm">&#9749; Practice Mode (Untimed)</span>
-                                <span class="text-xs text-slate-500 mt-0.5 block">Solve questions at your pace without pressure.</span>
+                                <span class="text-xs text-slate-500 mt-0.5 block">Solve questions at your own pace without time pressure.</span>
                             </div>
                         </label>
                     </div>
@@ -173,11 +206,12 @@
                     </div>
                 </div>
 
+                <!-- Custom Question Source -->
                 <div class="mb-6">
                     <div class="flex justify-between items-center mb-3">
-                        <label class="block text-sm font-semibold text-slate-700">5. Question Source</label>
+                        <label class="block text-sm font-semibold text-slate-700">6. Question Source Bank</label>
                         <button type="button" onclick="openJsonSchemaModal()" class="text-xs text-indigo-600 hover:text-indigo-800 font-semibold underline">
-                            View Custom JSON Format
+                            View Custom JSON Schema
                         </button>
                     </div>
 
@@ -186,15 +220,15 @@
                             <input type="radio" name="qSource" value="default" checked onchange="handleSourceChange()" class="text-indigo-600">
                             <div class="ml-3">
                                 <span class="text-sm font-medium text-slate-800 block">Comprehensive CDS / CSE Bank (Built-in)</span>
-                                <span class="text-xs text-slate-500">Categorized across Arithmetic, Advanced Maths, Geography, Science, Polity, History, Ecology, CA, Grammar, Vocab & Reasoning.</span>
+                                <span class="text-xs text-slate-500">Contains categorized PYQ papers & original new mock questions.</span>
                             </div>
                         </label>
 
                         <label class="flex items-center p-3 border rounded-lg cursor-pointer hover:bg-slate-50">
                             <input type="radio" name="qSource" value="custom" onchange="handleSourceChange()" class="text-indigo-600">
                             <div class="ml-3">
-                                <span class="text-sm font-medium text-slate-800 block">Upload External JSON File</span>
-                                <span class="text-xs text-slate-500">Load your custom questions tagged with categories and explanations.</span>
+                                <span class="text-sm font-medium text-slate-800 block">Upload Custom Questions (JSON File)</span>
+                                <span class="text-xs text-slate-500">Load custom question datasets tagged with test type (PYQ/mock), subject, and explanation.</span>
                             </div>
                         </label>
                     </div>
@@ -204,28 +238,33 @@
                         <label for="jsonFileInput" class="cursor-pointer inline-flex flex-col items-center">
                             <span class="text-3xl text-indigo-500 mb-1">&#128194;</span>
                             <span class="text-sm font-bold text-indigo-700">Click to upload custom JSON question bank</span>
-                            <span class="text-xs text-slate-500 mt-1">UTF-8 .json file with subject/topic tags</span>
+                            <span class="text-xs text-slate-500 mt-1">UTF-8 .json file formatted with category & topic tags</span>
                         </label>
                         <div id="fileStatusMessage" class="mt-3 text-xs font-semibold hidden"></div>
                     </div>
                 </div>
 
+                <!-- Test Preview Box -->
                 <div class="bg-indigo-50 border border-indigo-100 rounded-xl p-4 mb-8">
                     <h3 class="text-xs font-bold text-indigo-900 uppercase tracking-wider mb-2">Filtered Test Summary</h3>
-                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+                    <div class="grid grid-cols-2 sm:grid-cols-5 gap-3 text-center">
                         <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm">
-                            <span class="text-xs text-slate-500 block">Matching Questions</span>
+                            <span class="text-xs text-slate-500 block">Questions</span>
                             <span id="previewQCount" class="text-base font-extrabold text-indigo-600">0</span>
                         </div>
                         <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm">
-                            <span class="text-xs text-slate-500 block">Active Category</span>
+                            <span class="text-xs text-slate-500 block">Test Type</span>
+                            <span id="previewTypeBadge" class="text-xs font-bold text-indigo-600 block mt-1">Combined</span>
+                        </div>
+                        <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm">
+                            <span class="text-xs text-slate-500 block">Subject</span>
                             <span id="previewCategoryBadge" class="text-xs font-bold text-indigo-600 truncate block mt-1">All</span>
                         </div>
                         <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm">
-                            <span class="text-xs text-slate-500 block">Selected Topic</span>
+                            <span class="text-xs text-slate-500 block">Topic</span>
                             <span id="previewTopicBadge" class="text-xs font-bold text-indigo-600 truncate block mt-1">Complete</span>
                         </div>
-                        <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm">
+                        <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm col-span-2 sm:col-span-1">
                             <span class="text-xs text-slate-500 block">Pattern</span>
                             <span id="previewSchemeBadge" class="text-xs font-bold text-indigo-600 block mt-1">CDS</span>
                         </div>
@@ -238,12 +277,14 @@
             </div>
         </section>
 
+        <!-- Live Exam View -->
         <section id="viewExam" class="hidden">
             <div class="bg-white border border-slate-200 rounded-xl p-4 mb-4 text-xs text-slate-600 flex flex-wrap items-center justify-between gap-2">
                 <div>
-                    <strong>Exam Interface:</strong> Evaluate each question and select your response. Use the palette on the right to track status or skip between questions.
+                    <strong>Exam Interface:</strong> Evaluate each question and select your response. Use the palette on the right to jump between questions.
                 </div>
-                <div class="flex items-center space-x-2">
+                <div class="flex items-center space-x-2 flex-wrap gap-1">
+                    <span id="activeTypeBadge" class="bg-amber-100 text-amber-800 font-bold px-2.5 py-1 rounded-md text-xs">PYQ</span>
                     <span id="activeSchemeBadge" class="bg-indigo-100 text-indigo-800 font-bold px-2.5 py-1 rounded-md text-xs">CDS Pattern</span>
                     <span id="activeMarkingPill" class="bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded-md text-xs border border-slate-300">Marks: +1.0 / -0.33</span>
                 </div>
@@ -256,6 +297,9 @@
                             <div class="flex items-center space-x-2 flex-wrap gap-y-1">
                                 <span class="bg-indigo-600 text-white font-extrabold px-3 py-1 rounded-lg text-sm" id="qNumberBadge">
                                     Q 1
+                                </span>
+                                <span class="text-xs font-bold text-amber-900 bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-md" id="qTypeBadge">
+                                    PYQ 2023
                                 </span>
                                 <span class="text-xs font-bold text-indigo-900 bg-indigo-50 border border-indigo-100 px-2.5 py-1 rounded-md" id="qCategoryBadge">
                                     Maths
@@ -295,6 +339,7 @@
                     </div>
                 </div>
 
+                <!-- Right Question Palette -->
                 <div class="lg:col-span-1 space-y-4">
                     <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
                         <h3 class="text-sm font-bold text-slate-800 border-b border-slate-100 pb-3 mb-4 flex items-center justify-between">
@@ -332,6 +377,7 @@
             </div>
         </section>
 
+        <!-- Test Results View -->
         <section id="viewResults" class="hidden space-y-6">
             <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
                 <h2 class="text-xl font-extrabold text-slate-900">Performance Assessment & Test Report</h2>
@@ -470,6 +516,7 @@
 
     </main>
 
+    <!-- Modals -->
     <div id="submitModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
         <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-xl border border-slate-100 text-center">
             <div class="w-12 h-12 rounded-full bg-indigo-100 text-indigo-600 text-2xl flex items-center justify-center mx-auto mb-4 font-black">
@@ -497,12 +544,13 @@
                 <button onclick="closeJsonSchemaModal()" class="text-slate-400 hover:text-slate-700 text-lg font-bold">&times;</button>
             </div>
             <p class="text-xs text-slate-600 mb-3">
-                Include <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">category</code> and <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">topic</code> tags to enable topic filtering and exam marking rules:
+                Include <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">type</code> ("pyq" or "mock"), <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">category</code> and <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">topic</code> tags:
             </p>
             <pre class="bg-slate-900 text-slate-100 text-xs p-4 rounded-xl overflow-x-auto font-mono mb-4 leading-relaxed">
 [
   {
     "id": 1,
+    "type": "pyq",
     "category": "Maths",
     "topic": "Arithmetic",
     "question": "A train running at 72 km/h passes a pole in 12s. Find train length.",
@@ -512,6 +560,7 @@
   },
   {
     "id": 2,
+    "type": "mock",
     "category": "GS",
     "topic": "Polity",
     "question": "Which Article guarantees Equality before Law?",
@@ -571,6 +620,7 @@
         const DEFAULT_QUESTION_BANK = [
             {
                 id: 1,
+                type: "pyq",
                 category: "GS",
                 topic: "Polity",
                 question: "Which Article of the Constitution of India guarantees Equality before Law and Equal Protection of Laws?",
@@ -580,6 +630,7 @@
             },
             {
                 id: 2,
+                type: "pyq",
                 category: "GS",
                 topic: "History",
                 question: "Who presided over the historic 1929 Lahore Session of the INC where 'Purna Swaraj' was declared?",
@@ -589,6 +640,7 @@
             },
             {
                 id: 3,
+                type: "mock",
                 category: "GS",
                 topic: "Science",
                 question: "Which organelle in eukaryotic cells is known as the powerhouse due to ATP generation?",
@@ -598,6 +650,7 @@
             },
             {
                 id: 4,
+                type: "pyq",
                 category: "Maths",
                 topic: "Arithmetic",
                 question: "A train running at 72 km/h crosses a telegraph pole in 12 seconds. What is its length?",
@@ -607,6 +660,7 @@
             },
             {
                 id: 5,
+                type: "mock",
                 category: "Maths",
                 topic: "Advanced",
                 question: "If tan θ + cot θ = 2, what is the value of tan² θ + cot² θ?",
@@ -616,6 +670,7 @@
             },
             {
                 id: 6,
+                type: "pyq",
                 category: "GS",
                 topic: "Geography",
                 question: "Which river in peninsular India is popularly referred to as 'Dakshin Ganga'?",
@@ -625,6 +680,7 @@
             },
             {
                 id: 7,
+                type: "mock",
                 category: "GS",
                 topic: "Ecology Environment",
                 question: "Which treaty/protocol aims at phasing out ozone-depleting substances like CFCs?",
@@ -634,6 +690,7 @@
             },
             {
                 id: 8,
+                type: "mock",
                 category: "GS",
                 topic: "Current Affairs",
                 question: "Which global financial platform measures financial transparency via Black, Grey, and White lists?",
@@ -643,6 +700,7 @@
             },
             {
                 id: 9,
+                type: "pyq",
                 category: "English",
                 topic: "Grammar",
                 question: "Identify the correct sentence:",
@@ -657,6 +715,7 @@
             },
             {
                 id: 10,
+                type: "mock",
                 category: "English",
                 topic: "Vocab",
                 question: "Choose the word nearest in meaning (Synonym) to 'EPHEMERAL':",
@@ -666,6 +725,7 @@
             },
             {
                 id: 11,
+                type: "mock",
                 category: "Reasoning",
                 topic: "General Reasoning",
                 question: "In a code language, 'PLANET' is written as 'QMBOFU'. How is 'GARDEN' written?",
@@ -688,16 +748,35 @@
         let timeSpentSeconds = 0;
         let chartInstance = null;
         let selectedSchemeKey = 'cds';
+        let selectedTypeKey = 'all';
 
         document.addEventListener('DOMContentLoaded', () => {
-            updateTopicOptions();
+            updateTypeUI();
             updateSchemeUI();
+            updateTopicOptions();
             toggleModeUI();
         });
 
+        function updateTypeUI() {
+            selectedTypeKey = document.querySelector('input[name="testType"]:checked').value;
+            const badgeMap = { all: 'Combined', pyq: 'PYQ Test', mock: 'New Mock' };
+            document.getElementById('previewTypeBadge').innerText = badgeMap[selectedTypeKey] || 'Combined';
+
+            ['All', 'Pyq', 'Mock'].forEach(k => {
+                const card = document.getElementById(`type${k}Card`);
+                if (card) {
+                    if (k.toLowerCase() === selectedTypeKey) {
+                        card.classList.add('border-indigo-600', 'bg-indigo-50/30');
+                    } else {
+                        card.classList.remove('border-indigo-600', 'bg-indigo-50/30');
+                    }
+                }
+            });
+            filterQuestionsData();
+        }
+
         function updateSchemeUI() {
             selectedSchemeKey = document.querySelector('input[name="examScheme"]:checked').value;
-            const schemeInfo = SCHEME_RULES[selectedSchemeKey];
             document.getElementById('previewSchemeBadge').innerText = selectedSchemeKey.toUpperCase();
 
             ['Cds', 'Cse', 'Std'].forEach(k => {
@@ -731,13 +810,15 @@
         }
 
         function filterQuestionsData() {
+            const testType = selectedTypeKey;
             const cat = document.getElementById('selectCategory').value;
             const top = document.getElementById('selectTopic').value;
 
             filteredQuestions = baseQuestionsBank.filter(q => {
+                const matchType = (testType === 'all' || (q.type || 'mock').toLowerCase() === testType);
                 const matchCat = (cat === 'all' || q.category === cat);
                 const matchTop = (top === 'all' || top === 'Complete' || q.topic === top);
-                return matchCat && matchTop;
+                return matchType && matchCat && matchTop;
             });
 
             document.getElementById('previewQCount').innerText = filteredQuestions.length;
@@ -788,6 +869,7 @@
                     if (Array.isArray(parsed) && parsed.length > 0 && parsed[0].question && parsed[0].options) {
                         baseQuestionsBank = parsed.map((item, idx) => ({
                             id: item.id || idx + 1,
+                            type: item.type || "mock",
                             category: item.category || "GS",
                             topic: item.topic || "General",
                             question: item.question,
@@ -811,7 +893,7 @@
 
         function startMockTest() {
             if (filteredQuestions.length === 0) {
-                alert("No questions available matching your category/topic selection. Please adjust your filters.");
+                alert("No questions available matching your category/type selection. Please adjust your filters.");
                 return;
             }
 
@@ -831,6 +913,8 @@
 
             const schemeObj = SCHEME_RULES[selectedSchemeKey];
             document.getElementById('activeSchemeBadge').innerText = schemeObj.name;
+            const typeLabel = selectedTypeKey === 'pyq' ? 'PYQ Test' : (selectedTypeKey === 'mock' ? 'New Mock' : 'Combined Test');
+            document.getElementById('activeTypeBadge').innerText = typeLabel;
 
             const timerContainer = document.getElementById('timerContainer');
             if (isTimedMode) {
@@ -889,6 +973,7 @@
 
             const q = filteredQuestions[index];
             document.getElementById('qNumberBadge').innerText = `Q ${index + 1}`;
+            document.getElementById('qTypeBadge').innerText = (q.type || 'MOCK').toUpperCase();
             document.getElementById('qCategoryBadge').innerText = q.category || "General";
             document.getElementById('qTopicBadge').innerText = q.topic || "General";
             document.getElementById('questionText').innerText = q.question;
@@ -1137,9 +1222,7 @@
                 `Gross Score: +${grossScore.toFixed(2)} | Total Penalty Deduction: -${totalPenalty.toFixed(2)}`;
 
             renderSubjectChart(catStats);
-
             renderTopicMatrix(topicMatrix);
-
             renderReviewList('all');
         }
 
@@ -1279,6 +1362,7 @@
                     <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-3 flex-wrap gap-2">
                         <div class="flex items-center space-x-2">
                             <span class="text-xs font-bold text-slate-500">Question ${idx + 1}</span>
+                            <span class="bg-amber-100 text-amber-900 text-xs font-bold px-2 py-0.5 rounded">${(q.type || 'MOCK').toUpperCase()}</span>
                             <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2 py-0.5 rounded">${q.category || 'GS'}</span>
                             <span class="bg-slate-200 text-slate-700 text-xs px-2 py-0.5 rounded">${q.topic || 'General'}</span>
                         </div>
