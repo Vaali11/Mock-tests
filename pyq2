@@ -1,0 +1,1682 @@
+[
+  {
+    "id": 1,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Three resistors, R1, R2 and R3, (R1 > R2 > R3), are connected to a battery of voltage V, such that the circuit generates maximum heat per unit time. Which one among the following is the correct circuit combination for this?",
+    "options": [
+      "R1, R2 and R3 are connected in series combination",
+      "R1, R2 and R3 are connected in parallel combination",
+      "R1 and R3 are connected in parallel and R2 is connected in series to the combination",
+      "R1 and R3 are connected in series and R2 is connected parallel to the combination"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 2,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Convex side of a plano-convex lens is fully immersed in a liquid, of same refractive index (equal to 8/5) as that of the lens. Which one among the following is correct regarding the image of a point source of light placed in air at 40 cm away from the lens? (Assume the focal length of the plano-convex lens as 20 cm)",
+    "options": [
+      "Its image will be formed 40 cm behind the lens",
+      "Its image will be formed at 25 cm behind the lens",
+      "No image will be formed because of the same refractive index of the lens and the liquid",
+      "Its image will be formed 64 cm behind the lens"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 3,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "A car of mass 800 kg is travelling at a speed of 40 km/h on a straight road. A force of 1000 N is applied on it in the direction of its velocity for 12 s. Which one among the following is the final speed of the car?",
+    "options": [
+      "55 km/h",
+      "60 km/h",
+      "94 km/h",
+      "104 km/h"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 4,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "A positively charged particle (alpha-particle) is projected towards west in a horizontal plane. It is deflected towards north in the same plane by a magnetic field. Which one among the following is the direction of the magnetic field?",
+    "options": [
+      "Towards south",
+      "Towards east",
+      "Vertically downwards",
+      "Vertically upwards"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 5,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "With regard to the magnetic field lines, which one among the following statements is NOT correct?",
+    "options": [
+      "They are always parallel to each other",
+      "They point from south pole to north pole inside bar magnets",
+      "They can cross each other inside bar magnets",
+      "The larger the line density in a region, the larger is the magnetic field in that region"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 6,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "A rod is balanced vertically on one of its ends. Which one among the following is the correct nature of its state of equilibrium?",
+    "options": [
+      "Neutral equilibrium",
+      "Stable equilibrium",
+      "Unstable equilibrium",
+      "Conditional stable equilibrium"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 7,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Two parallel, but not necessarily unidirectional, forces of magnitude 1 N and 2 N are acting on a body. Two more, parallel, again not necessarily unidirectional, forces of magnitude 3 N and 1 N, but perpendicular to the earlier forces, are applied to the body. Which one among the following are the smallest and largest possible magnitudes of the resultant force on the body?",
+    "options": [
+      "2 N and 8 N",
+      "sqrt(2) N and 5 N",
+      "sqrt(5) N and 5 N",
+      "sqrt(3) N and 7 N"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 8,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Gravitational acceleration at moon is 1/6 of that on earth. On earth, if an object floats in water with fraction 'fe' of its volume submersed in water, and on moon, fraction 'fm' is submersed, then",
+    "options": [
+      "fe > fm",
+      "fe < fm",
+      "fe = fm",
+      "fm = (1/6) fe"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 9,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Two very thin and very long uniform wires, placed very close to each other, carry equal but opposite currents. Point 1 is exactly at the middle of those wires and point 2 is far away from the wires. Which one among the following regarding the net magnetic field produced is correct?",
+    "options": [
+      "Magnetic field at point 1 is zero",
+      "Magnetic field at point 2 is zero",
+      "Magnetic field lines will form elliptical loops around the wires",
+      "Magnetic field lines will form circular loops around the wires"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one among the following is the primary reason for asking persons undergoing X-ray imaging to remove metallic objects?",
+    "options": [
+      "Metallic objects can absorb/reflect X-ray resulting in dark/bright spot",
+      "Metallic objects can melt causing serious skin damage",
+      "X-ray can create sparks on hitting the metallic objects",
+      "X-ray can damage the metallic objects by altering their composition"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 11,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one among the following protocols works at application layer in a TCP/IP protocol suit?",
+    "options": [
+      "IP",
+      "TCP",
+      "TELNET",
+      "Go-back-N"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 12,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one among the following tasks is NOT carried out by an operating system?",
+    "options": [
+      "To link a program with the subroutines it references",
+      "To manage data transfer to and from peripherals",
+      "To allocate memory for storing programs",
+      "To provide a layered, user-friendly interface"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 13,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one among the following is NOT true about Standard Generalised Markup Language (SGML)?",
+    "options": [
+      "It is an international open standard",
+      "It is dependent on a computer's hardware",
+      "It is independent of a computer's operating system",
+      "It defines document type"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 14,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one among the following consists of a list of commands that is executed automatically as the computer system starts up?",
+    "options": [
+      "COMMAND.COM",
+      "AUTOEXEC.BAT",
+      "CONFIG.SYS",
+      "AUTOSTART.BAT"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 15,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "In MS Word, which one among the following is used to set the alignment for the content in the document?",
+    "options": [
+      "Ruler bar",
+      "Toolbar",
+      "Status bar",
+      "Scrollbar"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 16,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Economics",
+    "question": "Consider the following statements: Which of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 17,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Economics",
+    "question": "Which one of the following best explains the \"crowding-in effect\" observed in India?",
+    "options": [
+      "Reduction in private sector borrowing",
+      "Public investment leading to increase in private investment",
+      "Decline in fiscal deficit",
+      "Increase in imports due to higher demand"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 18,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Economics",
+    "question": "Consider the following statements: Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 19,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Economics",
+    "question": "With reference to Ayushman Bharat Pradhan Mantri Jan Arogya Yojana, which of the following statements is/are correct? Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 and 2",
+      "2 and 3"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 20,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Economics",
+    "question": "India's fiscal deficit widens significantly due to increased Government spending on subsidies while tax revenue remains unchanged. Which one of the following is the most likely consequence?",
+    "options": [
+      "Inflation will rise, interest rates will fall, and private investment will increase",
+      "Inflation will rise, interest rates may rise, and private investment may slow down",
+      "Inflation will fall, interest rates will rise, and private investment will increase",
+      "Inflation will fall, interest rates will fall, and GDP growth will accelerate"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 21,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Economics",
+    "question": "India's reliance on imported energy exposes it to geopolitical supply shocks. In this context, what is the most likely short-term impact of a major disruption in crude oil imports?",
+    "options": [
+      "Decrease in inflation",
+      "Strengthening of the rupee",
+      "Higher input costs and inflation pressure",
+      "Increase in exports"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 22,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "The Defence Research & Development Organisation (DRDO) recently conducted a successful flight-test of the Pinaka Long Range Guided Rocket (LRGR). The rocket was tested for a user-defined minimum range of",
+    "options": [
+      "30 km",
+      "40 km",
+      "50 km",
+      "60 km"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 23,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Economics",
+    "question": "Which one of the following best explains how India's growth resilience is achieved in a fragile global context in recent years?",
+    "options": [
+      "Lower inflation with a simultaneous increase in consumption and investment supported by strong domestic demand",
+      "A sharp depreciation of the Indian rupee to boost exports despite weak global demand",
+      "A fiscal push achieved primarily through increased revenue deficit financing",
+      "Reduced public capital expenditure to curb inflationary pressures"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 24,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Economics",
+    "question": "If Labour Force Participation Rate (LFPR) is 50% and Worker Population Ratio (WPR) is 45%, what is the Unemployment Rate?",
+    "options": [
+      "5%",
+      "10%",
+      "15%",
+      "Cannot be determined"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 25,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Economics",
+    "question": "Which one of the following major structural trends in agricultural output is highlighted in the Economic Survey 2025-26?",
+    "options": [
+      "Livestock output declined relative to crop production",
+      "Production of fruits exceeded production of vegetables",
+      "Pulses production outpaced both horticulture and food grains production",
+      "Horticulture production surpassed food grain production"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 26,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Consider the following statements with reference to PANI (Portal for Asset and Navigation Information): Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "3 only",
+      "1 and 2",
+      "2 and 3"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 27,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Consider the following statements with reference to Indian Ports Act, 2025: Centre and coastal states Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 28,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Which of the following statements relating to Disaster Management (Amendment) Act, 2025 are correct? having Municipal Corporations (excluding NCT of Delhi and Union Territories of Chandigarh) Select the answer using the code given below:",
+    "options": [
+      "1 and 3 only",
+      "2 and 3 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 29,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Consider the following statements with reference to Fisheries Startups Ecosystem in India: sustainability, and market access fisheries sector mentorship and training for developing business models Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 30,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Which of the following statements relating to objectives of National Livestock Mission are correct? fodder sector Select the answer using the code given below:",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 31,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Which of the following statements relating to given weather phenomena in India is/are correct? heat wave wave Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 32,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Match List I with List II and select the answer using the code given below the Lists:",
+    "options": [
+      "1 2 3 4",
+      "1 3 2 4",
+      "4 3 2 1",
+      "4 2 3 1"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 33,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Which one of the following is India's key programmes to conserve wildlife and protect endangered species?",
+    "options": [
+      "Humpback Whale Project",
+      "International Big Cat Alliance",
+      "International Gorilla Conservation Programme",
+      "International Rhino Foundation"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 34,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Consider the following statements: Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 35,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Consider the following statements with reference to Ramsar sites in India: Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 36,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Which of the following are India's first Ramsar-accredited Wetland Cities? Select the answer using the code given below:",
+    "options": [
+      "1 and 3",
+      "1 and 4",
+      "2 and 3",
+      "3 and 4"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 37,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Which of the following statements related to the stages of evolution of the present atmosphere are correct? Select the answer using the code given below:",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 38,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Consider the following statements with reference to earthquakes: Which of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 39,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Consider the following statements related to water vapours: Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 40,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Consider the following statements related to river terraces: depositional floodplain Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 41,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Consider the following States: The State of Arunachal Pradesh has common boundary with which of the above States of India?",
+    "options": [
+      "1 and 2 only",
+      "(!)[illegible on scan , obscured by student's scribble; to verify]",
+      "1, 2 and 4",
+      "(!)[illegible on scan , obscured by student's scribble; to verify]"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 42,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "The Tetrahedral Hypothesis of the origin of continents and ocean basin was proposed by",
+    "options": [
+      "F B Taylor",
+      "Lowthian Green",
+      "Alfred Wegener",
+      "W M Davis"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 43,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one among the following constitute a food chain?",
+    "options": [
+      "Grass, Fish and Goat",
+      "Grass, Insects and Frog",
+      "Goat, Cow and Elephant",
+      "Tiger, Lion and Grass"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 44,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "UNESCO World Heritage site Nanda Devi National Park is located in which one of the following States?",
+    "options": [
+      "Arunachal Pradesh",
+      "Uttarakhand",
+      "Himachal Pradesh",
+      "Sikkim"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 45,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "What was the theme for the International Day for Biological Diversity, 2026?",
+    "options": [
+      "Save Water, Save Environment",
+      "Acting Locally for Global Impact",
+      "From Agreement to Action : Build Back Biodiversity",
+      "Conserve Flora and Fauna of the Planet"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 46,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which of the following statements related to the Constituent Assembly of India is/are correct? Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 47,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Consider the following statements regarding State Support Mission by NITI Aayog: engagement with states and Union Territories (UTs) Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 48,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Consider the following pairs of Institutions/Organizations and their official motto: How many of the above is/are correctly paired?",
+    "options": [
+      "Nil",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 49,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Which one of the following is the 'Theme of the Year 2026' of Indian Army?",
+    "options": [
+      "Anchored in Tradition, Sailing into Self-Reliance and Innovation",
+      "Year of Networking and Data Centricity",
+      "Achook, Abhedya va Sateek",
+      "Samarth Bharat, Saksham Sena"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 50,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which one of the following Writs literally means 'you have the body'?",
+    "options": [
+      "Habeas Corpus",
+      "Mandamus",
+      "Prohibition",
+      "Certiorari"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 51,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which of the following statements about National Human Rights Commission, India is/are correct? Select the answer using the code given below:",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "2 and 3 only",
+      "3 only"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 52,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which of the following statements is/are correct? Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 53,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which of the following statements is/are correct with respect to the Union Territory of Dadra and Nagar Haveli and Daman and Diu? of the Parliament of India allocated in the House of People Select the answer using the code given below:",
+    "options": [
+      "1, 2 and 3",
+      "2 and 3 only",
+      "1 and 3 only",
+      "2 only"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 54,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "As regards the 'disqualification on ground of defection' as per the Constitution of India, which of the following statements is/are correct? merger of her/his original political party into another and opts to function as a separate group Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 55,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which of the following statements is/are correct? List of socially, educationally and economically backward classes with respect to a State the Central List Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 56,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which of the following statements about Goods and Services Tax (GST) in course of inter-State trade or commerce is/are correct? Select the answer using the code given below:",
+    "options": [
+      "1, 2 and 3",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1 only"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 57,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which of the following statements about State Election Commissioner is/are correct? India Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 58,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which one of the following statements related to below mentioned Committees of the Parliament is correct?",
+    "options": [
+      "The Rajya Sabha elects more members than the Lok Sabha to the Committee on the Welfare of Scheduled Castes and Scheduled Tribes",
+      "The Chairperson of the Committee on Welfare of Other Backward Classes is appointed by the Speaker of the Lok Sabha",
+      "Members nominated by the Chairman of the Rajya Sabha are more in number than Members nominated by the Speaker of the Lok Sabha on the Committee on Empowerment of Women",
+      "The Rajya Sabha elects more members than the Lok Sabha to the Public Accounts Committee"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 59,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which of the following statements is/are correct? energy resources by 2035 Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 60,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which of the following statements with respect to the Ordinance promulgated under Article 213 of the Constitution of India is/are correct? before both the Houses Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 61,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Which one of the following groups of countries consists of the members of Mekong-Ganga Cooperation (MGC)?",
+    "options": [
+      "India, Cambodia, Lao PDR, Myanmar, Thailand and Vietnam",
+      "India, Bangladesh, Lao PDR, Myanmar, Thailand and Vietnam",
+      "India, Bangladesh and Myanmar",
+      "India, Bangladesh, Myanmar and Sri Lanka"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 62,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Which one of the following pairs is NOT correctly matched?",
+    "options": [
+      "Formation of the State of Arunachal Pradesh : The Constitution (Fifty-fifth Amendment) Act, 1986",
+      "Formation of the State of Mizoram : The Constitution (Fifty-third Amendment) Act, 1986",
+      "Special provision with respect to the State of Nagaland : The Constitution (Fourteenth Amendment) Act, 1962",
+      "Reorganisation of the Union Territory of Goa, Daman and Diu : The Constitution (Fifty-sixth Amendment) Act, 1987"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 63,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Consider the statements regarding the delimitation exercise carried out in Assam in 2023: Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 64,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Polity",
+    "question": "Consider the following statements about the administration and control of Scheduled Areas: President, make a report to the President regarding the administration of the Scheduled Areas in that State the Scheduled Areas Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 65,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Economics",
+    "question": "Under the Ministry of Finance, which Department is responsible for giving advice on economic issues having a bearing on internal and external aspects of economy including foreign exchange management?",
+    "options": [
+      "Department of Economic Affairs",
+      "Department of Expenditure",
+      "Department of Investment and Public Asset Management",
+      "Department of Financial Services"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 66,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which of the following statements regarding the similarity in glycogen in animal cell and starch in plant cell is/are NOT correct? Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 67,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "In which of the following processes, active transport is NOT used?",
+    "options": [
+      "Reabsorption of amino acids and glucose from kidney into blood",
+      "Loading sugar from photosynthesizing leaf cells into phloem tissue for transportation",
+      "Passage of Na+ and Cl- through hydrophilic channel created by protein molecules",
+      "Absorption of glucose and electrolytes into the bloodstream"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 68,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one of the following is NOT true of mitotic cell division?",
+    "options": [
+      "The nuclei of the two daughter cells in mitosis have same number of chromosomes",
+      "Replacement of cell and tissue repairing is possible through mitosis",
+      "Asexual reproduction in eukaryotes is done by mitosis",
+      "The cells become haploid as a result of mitosis"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 69,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one of the following is important for cartilage but NOT a globin protein?",
+    "options": [
+      "Haemoglobin",
+      "Myoglobin",
+      "Keratin",
+      "Collagen"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 70,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which of the following activity a mammalian erythrocyte CANNOT perform?",
+    "options": [
+      "Diffusion of oxygen",
+      "Protein synthesis and cell division",
+      "Squeeze while passing through capillaries",
+      "Carry haemoglobin"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 71,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Consider the following statements associated with Malaria: Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 72,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one of the following is involved in light independent reactions of photosynthesis?",
+    "options": [
+      "Calvin cycle",
+      "Hill reaction",
+      "Photosystem",
+      "Light absorption by photosynthetic pigments"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 73,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which of the following is associated to Schizophrenia?",
+    "options": [
+      "Multiple personalities",
+      "Neurodegeneration",
+      "Not subjected to environmental influence",
+      "Hallucination"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 74,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one of the following is NOT found in a prokaryotic cell?",
+    "options": [
+      "Cell wall",
+      "Ribosome",
+      "Nuclear membrane",
+      "Plasmid DNA"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 75,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which of the following statements is NOT correct?",
+    "options": [
+      "Hardy-Weinberg Principle says that allele frequencies in a population is unstable",
+      "Branching descent and natural selection are the two key concepts of Darwinian Theory of evolution",
+      "Lamarckism is based on inheritance of acquired character",
+      "The concept of mutation, gene flow, genetic drift, gene recombination and natural selection affect Hardy- Weinberg equilibrium"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 76,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Geography",
+    "question": "Which of the following can be considered associated with mitigation of environmental problems?",
+    "options": [
+      "Biomagnification",
+      "Accelerated eutrophication",
+      "Release of Nuclear wastes",
+      "Categorical disposal of different wastes"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 77,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which of the following statements is/are associated with role of enzymes in genetic engineering? Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 78,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one of the following is NOT a biocontrol agent?",
+    "options": [
+      "Bacillus thuringiensis",
+      "Ladybird beetle",
+      "Trichoderma",
+      "Aphid"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 79,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which one of the following statements is NOT correct?",
+    "options": [
+      "Single celled eukaryotes belong to Kingdom Protista",
+      "Yeast, a fungus is multicellular",
+      "The fungi constitute a unique kingdom of heterotrophs",
+      "Ascomycetes, a saprophytic fungi is multicellular or rarely unicellular"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 80,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which of the following statements associated with cancer is/are correct? Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 81,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Consider the following statements with regard to the defence sector in India: 2026-27 2026-27 Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 82,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "The Technology Development Fund (TDF) is a flagship initiative under",
+    "options": [
+      "Ministry of Defence",
+      "Ministry of Heavy Industries",
+      "Ministry of Science and Technology",
+      "Ministry of Agriculture and Farmers Welfare"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 83,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Consider the following statements about Exercise Khaan Quest, 2026: personnel from other Arms and Services operating in a multilateral environment Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 84,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "How many of the 2026 Padma awardees were conferred the award from the category of Foreigners / NRI / PIO / OCI?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 85,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "The Report on Floating Solar PV Potential Assessment of India was released by",
+    "options": [
+      "Ministry of Power",
+      "Ministry of New and Renewable Energy",
+      "Ministry of Coal",
+      "Ministry of Petroleum and Natural Gas"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 86,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Which one among the following was the theme of Fire Safety Week 2026?",
+    "options": [
+      "Unite to Ignite, a Fire Safe India",
+      "(!)Safe Schools, Safe Hospitals, and a Fire Safety Aware Society Together for Fire Prevention [option partly obscured by student's scribble]",
+      "Ensure Fire Safety, Contribute towards Nation Building",
+      "Awareness in Fire Safety for Growth of National Infrastructure"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 87,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "NDMA has recently successfully operationalised the Integrated Alert System (SACHET). It has been developed by",
+    "options": [
+      "C-DOT (Centre for Development of Telematics)",
+      "C-DAC (Centre for Development of Advanced Computing)",
+      "C-MET (Centre for Materials for Electronics Technology)",
+      "SAMEER (Society for Applied Microwave Electronics Engineering & Research)"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 88,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Which book won the 2026 International Booker Prize?",
+    "options": [
+      "Taiwan Travelogue",
+      "Transcription",
+      "Shadow Ticket",
+      "Vigil"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 89,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Which of the following statements relating to SEBI (Index Providers) Regulations, 2024 is/are correct? recognized stock exchange in India for use in the Indian securities market Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 90,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "current affair",
+    "question": "Which of the following statements regarding 'Startup India Fund of Funds 2.0' is/are correct? Select the answer using the code given below:",
+    "options": [
+      "1, 2 and 3",
+      "2 and 3 only",
+      "1 and 3 only",
+      "2 only"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 91,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "'Study of human societies and cultures from the oldest times to the present' is the work of",
+    "options": [
+      "Archaeologists",
+      "Anthropologists",
+      "Palaeontologists",
+      "Geologists"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 92,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "How many of the following pairs is/are correctly matched? Harappan site : Modern state/region Select the answer using the code given below:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 93,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Which of the following is/are correct about the Harappans? Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 94,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "The stories of Shvetaketu and Nachiketa teach us the worth of",
+    "options": [
+      "Unquestioned obedience to Rishis",
+      "Asking questions in pursuit of knowledge",
+      "Lasting friendships in life",
+      "Physical labour for healthy life"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 95,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Which of the following schools of thought believed that 'this material world is the only thing that exists' and therefore 'there can be no life after death'?",
+    "options": [
+      "Vaisheshika",
+      "Ajivika",
+      "Charvaka",
+      "Nyaya"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 96,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Consider the following statements: Which of the above statements is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 97,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Consider the following statements about the treaty of Allahabad (1765): to Mughal Emperor How many of the above statements is/are correct?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 98,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Which of the following is a correct order of placement of major Harappan settlements from north to south?",
+    "options": [
+      "Lakhmirwala, Banawali, Rakhigarhi, Bhirrana",
+      "Rakhigarhi, Banawali, Bhirrana, Lakhmirwala",
+      "Banawali, Rakhigarhi, Lakhmirwala, Bhirrana",
+      "Rakhigarhi, Bhirrana, Banawali, Lakhmirwala"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 99,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Arrange the following landmarks in the discovery and preservation of early monuments and sculpture in a chronological order: Select the answer using the code given below:",
+    "options": [
+      "1, 2, 3, 4",
+      "1, 3, 2, 4",
+      "2, 3, 4, 1",
+      "3, 4, 2, 1"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 100,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "With reference to the eligibility criteria for becoming the member of a 'Sabha' as laid down in the Uttarmerur inscription, consider the following statements: Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 101,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Why do you think Vijayanagara incorporated agricultural tracts within the fortified area?",
+    "options": [
+      "To promote high yield agriculture under State supervision",
+      "To protect the agricultural belt from the sieges of an invading army",
+      "To protect the agriculture from stray animals",
+      "To protect the agriculture from drought"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 102,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "What do you think the titles of Mahendravarman-I like 'Vichitrachitta', 'Chaityakari' and 'Chitrakarapuli' seem to suggest?",
+    "options": [
+      "It shows his proficiency in Sanskrit literature",
+      "It shows his interest in art activities",
+      "It shows his charming personality",
+      "It shows his interest in conducting experiments with agriculture"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 103,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "The term 'Pendentive' refers to which form of Indian architecture?",
+    "options": [
+      "A building/temple which tends to be broader and shorter than Latina type",
+      "A triangular bracket in the angle of two walls, connecting the base of the dome to its supporting arches",
+      "Drum house from where ceremonial music was played which was usually situated over the gate",
+      "Many curves in an arch"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 104,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Which one of the following European travelers have NOT written an account of the Vijayanagara Empire?",
+    "options": [
+      "Niccolo di Conti",
+      "Marco Polo",
+      "Domingo Paes",
+      "Fernao Nuniz"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 105,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Who among the following was the founder president of the Asiatic Society of Bengal?",
+    "options": [
+      "Charles Wilkins",
+      "William Jones",
+      "Warren Hastings",
+      "Henry Colebrooke"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 106,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Which one among the following terms was used in the Sangam Texts for ploughmen?",
+    "options": [
+      "Vellalar",
+      "Uzhavar",
+      "Gahpati",
+      "Adimai"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 107,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Prithivimahadevi, Dharmamahadevi, Dandimahadevi and Valkulamahadevi, who became rulers due to the absence of a male heir, belonged to the",
+    "options": [
+      "Eastern Chalukya dynasty",
+      "Kadamba dynasty",
+      "Bhauma-Kara dynasty",
+      "Gonanda dynasty"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 108,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "Sri Narayana Dharma Paripalana Movement took place in which of the following States of India?",
+    "options": [
+      "Tamil Nadu",
+      "Kerala",
+      "Punjab",
+      "Uttarakhand"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 109,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "With reference to the Shunga dynasty, Patanjali refers to the yavanas reaching up to Saketa and Madhyamika. The place Madhyamika is identified as located near",
+    "options": [
+      "Chittor",
+      "Ujjain",
+      "Kaushambi",
+      "Pataliputra"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 110,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "History",
+    "question": "The Sylhet Referendum was held in?",
+    "options": [
+      "1947",
+      "1948",
+      "1949",
+      "1950"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 111,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Which of the following are the forms of calcium carbonate? Select the answer using the code given below:",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 112,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Upon adding hydrochloric acid in copper oxide, it turns to blue-green color which is due to the formation of",
+    "options": [
+      "Copper hydrochloride",
+      "Copper (II) chloride",
+      "Copper (I) chloride",
+      "Copper (I) hydride"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 113,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Match List I with List II and select the answer using the code given below the Lists:",
+    "options": [
+      "3 2 4 1",
+      "3 4 2 1",
+      "1 2 4 3",
+      "1 4 2 3"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 114,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Chemical formula of cooking soda is",
+    "options": [
+      "NaCl",
+      "NaOCl",
+      "Na2CO3",
+      "NaHCO3"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 115,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Sodium metal is kept immersed in kerosene oil. This is because",
+    "options": [
+      "It evaporates quickly in the air",
+      "It undergoes corrosion with air",
+      "It reacts violently with moisture in air",
+      "All of the above"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 116,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "Concentration of a solution can be expressed in: Select the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 117,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "When electricity is passed through an aqueous solution of sodium chloride, it decomposes to form",
+    "options": [
+      "NaHCO3",
+      "NaOH",
+      "HCl",
+      "HOCl"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 118,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "The mass of one mole of a substance in grams is called its",
+    "options": [
+      "Kilo-gram mass",
+      "Gram-mass",
+      "Molar-mass",
+      "All the above"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 119,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "An aqueous solution of an acid conducts electricity. This is because",
+    "options": [
+      "It contains hydrogen ion",
+      "It contains water molecules",
+      "Electricity passes through it",
+      "It generates electricity"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 120,
+    "type": "pyq",
+    "category": "GS",
+    "topic": "Science",
+    "question": "A chemical that donate proton (hydrogen ion) is called",
+    "options": [
+      "Hydrophilic",
+      "Protophilic",
+      "Hydrophobic",
+      "Acid"
+    ],
+    "answer": 3
+  }
+]
