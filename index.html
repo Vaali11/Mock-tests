@@ -712,59 +712,6 @@
             }
         };
 
-        // Offline Standalone Fallback Pool
-        const DEFAULT_FALLBACK_QUESTIONS = [
-            {
-                id: 101,
-                type: "pyq",
-                category: "GS",
-                topic: "Geography",
-                question: "Which river in Peninsular India is popularly referred to as 'Dakshin Ganga'?",
-                options: ["Krishna", "Narmada", "Godavari", "Kaveri"],
-                answer: 2,
-                explanation: "Godavari is the largest peninsular river system in India and is referred to as Dakshin Ganga due to its length and extent."
-            },
-            {
-                id: 102,
-                type: "pyq",
-                category: "GS",
-                topic: "Polity",
-                question: "Which Article of the Indian Constitution provides for the Directive Principles of State Policy?",
-                options: ["Articles 12 to 35", "Articles 36 to 51", "Articles 52 to 78", "Articles 368 to 370"],
-                answer: 1,
-                explanation: "Part IV of the Indian Constitution (Articles 36 to 51) contains the Directive Principles of State Policy (DPSP)."
-            },
-            {
-                id: 103,
-                type: "new",
-                category: "Maths",
-                topic: "Arithmetic",
-                question: "If the ratio of two numbers is 3:4 and their HCF is 4, what is their LCM?",
-                options: ["12", "24", "48", "96"],
-                answer: 2,
-                explanation: "Numbers are 3*4=12 and 4*4=16. LCM(12, 16) = 48."
-            },
-            {
-                id: 104,
-                type: "pyq",
-                category: "English",
-                topic: "Grammar",
-                question: "Choose the correct idiom meaning for 'To read between the lines':",
-                options: ["To read slowly and carefully", "To understand the hidden meaning", "To skip paragraphs while reading", "To highlight important words"],
-                answer: 1,
-                explanation: "'To read between the lines' means to discover a meaning that is implied rather than explicitly stated."
-            },
-            {
-                id: 105,
-                type: "new",
-                category: "Reasoning",
-                topic: "General Reasoning",
-                question: "In a certain code language, 'COMPUTER' is written as 'RFUVQNPC'. How is 'MEDICINE' written in that code?",
-                options: ["EOJDEJFM", "EOJDJEFM", "MFEDJCOE", "MFEJDCOE"],
-                answer: 1,
-                explanation: "The word is reversed, and each letter is shifted by +1, except the outer boundary letters."
-            }
-        ];
 
         // Master question bank gathered from all discovered JSON files
         let masterRepoQuestions = [];
