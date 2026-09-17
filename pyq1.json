@@ -11448,7 +11448,7 @@
     "id": 764,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "We are given three copper wires of different lengths and different areas of cross-section. Which one of the following would have highest resistivity?",
     "options": [
       "Copper wire of 50 cm length and 1 mm diameter",
@@ -11463,7 +11463,7 @@
     "id": 765,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following is an electric conductor?",
     "options": [
       "A plastic sheet",
@@ -11478,7 +11478,7 @@
     "id": 766,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A non-spherical shining spoon can generally be considered as a",
     "options": [
       "Spherical mirror",
@@ -11493,7 +11493,7 @@
     "id": 767,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Who amongst the following is a pioneer in discovering the heating effect of electric current?",
     "options": [
       "Isaac Newton",
@@ -11508,7 +11508,7 @@
     "id": 768,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following laws of electromagnetism does not give the direction of magnetic field?",
     "options": [
       "Right-hand thumb rule",
@@ -11523,7 +11523,7 @@
     "id": 769,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "How many internal reflections of light take place in the formation of primary rainbow?",
     "options": [
       "0",
@@ -11538,7 +11538,7 @@
     "id": 770,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The direction of acceleration in uniform circular motion is along the",
     "options": [
       "direction of motion.",
@@ -11553,7 +11553,7 @@
     "id": 771,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The weight of an object is due to",
     "options": [
       "the net force acting on it.",
@@ -11568,7 +11568,7 @@
     "id": 772,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The size of particles being studied in 'nano-technology' is about",
     "options": [
       "1A-10 nm",
@@ -11583,7 +11583,7 @@
     "id": 773,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Where should an object be placed in front of a convex lens to get a real and enlarged image of the object?",
     "options": [
       "At twice the focal length",
@@ -11598,7 +11598,7 @@
     "id": 774,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The magnetic field lines inside a current carrying long solenoid are in the form of",
     "options": [
       "ellipse.",
@@ -11613,7 +11613,7 @@
     "id": 775,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A ray of light travelling from a rarer medium to a denser medium",
     "options": [
       "slows down and bends away from the normal.",
@@ -11628,7 +11628,7 @@
     "id": 776,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "An electric circuit is consisting of a cell, an ammeter and a nichrome wire of length l. If the length of the wire is reduced to half (l/2), then the ammeter reading",
     "options": [
       "decreases to one-half.",
@@ -11643,7 +11643,7 @@
     "id": 777,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "What is the effect of pressure of a human body on sand?",
     "options": [
       "Larger while standing than while lying",
@@ -11658,7 +11658,7 @@
     "id": 778,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "An athlete completes one round of a circular track of diameter 100 m in 20 s. What will be the displacements after 1 minute and 10 s, respectively?",
     "options": [
       "0 m, 50 m",
@@ -11673,7 +11673,7 @@
     "id": 779,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A sound wave has a frequency of 4 kHz and wavelength 30 cm. How long will it take to travel 2.4 km?",
     "options": [
       "2.0 s",
@@ -11688,7 +11688,7 @@
     "id": 780,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "An electric bulb is connected to a 110 V generator. The current is 0.2 A. What is the power of the bulb?",
     "options": [
       "0.22 W",
@@ -11703,7 +11703,7 @@
     "id": 781,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Refraction of light, as it enters from one transparent medium to another, is due to",
     "options": [
       "change in temperature of the media.",
@@ -11718,7 +11718,7 @@
     "id": 782,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A bus starting from a bus-stand and moving with uniform acceleration attains a speed of 20 km/h in 10 minutes. What is its acceleration?",
     "options": [
       "200 km/h2",
@@ -11733,7 +11733,7 @@
     "id": 783,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "If the magnification produced by a lens is +2, then the image is:",
     "options": [
       "erect, virtual and smaller than the object.",
@@ -11748,7 +11748,7 @@
     "id": 784,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "What is the correct sequence of resistivity of silver, nichrome and glass at room temperature?",
     "options": [
       "Silver < Nichrome < Glass",
@@ -11763,7 +11763,7 @@
     "id": 785,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "At the time of short-circuit, the current in the circuit:",
     "options": [
       "reduces substantially.",
@@ -11778,7 +11778,7 @@
     "id": 786,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following statements is not correct?",
     "options": [
       "An electric motor converts electrical energy into mechanical energy.",
@@ -11793,7 +11793,7 @@
     "id": 787,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A boy completes one round of a circular track of diameter 200 m in 30 s. What will be the displacement at the end of 3 minutes and 45 seconds?",
     "options": [
       "50 m",
@@ -11808,7 +11808,7 @@
     "id": 788,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "What happens to the gravitational force between two objects if the mass of one object is doubled and the distance between them is also doubled?",
     "options": [
       "The force would remain the same",
@@ -11823,7 +11823,7 @@
     "id": 789,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following statements is true with regard to a greenhouse?",
     "options": [
       "The shorter wavelength infrared radiations from the Sun can enter into the greenhouse while longer wavelength infrared radiations from the ground and the plants inside the greenhouse cannot pass back out through the glass.",
@@ -11838,7 +11838,7 @@
     "id": 790,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "An object weighs 9 N on the surface of the Earth. What would be its weight, when measured on the surface of a planet where the acceleration due to gravity is 9 times that on the surface of the Earth?",
     "options": [
       "The weight would remain the same",
@@ -11853,7 +11853,7 @@
     "id": 791,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The twinkling of a star is due to:",
     "options": [
       "atmospheric reflection of starlight.",
@@ -11868,7 +11868,7 @@
     "id": 792,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A convex lens has a focal length of 15 cm. At what distance should an object be placed in front of the lens to get a real image of the same size of the object?",
     "options": [
       "15 cm",
@@ -11883,7 +11883,7 @@
     "id": 793,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "If an object of mass 10 kg is moving with a uniform speed of 10 m/s then the linear momentum and the kinetic energy of the object, respectively, are",
     "options": [
       "100 N.s and 500 J",
@@ -11898,7 +11898,7 @@
     "id": 794,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "An electrical circuit having combinations of resistances and capacitance is given below. The current, flowing through the circuit will be",
     "options": [
       "1 A",
@@ -11913,7 +11913,7 @@
     "id": 795,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The pitch of a sound wave depends upon which one of its following characteristics?",
     "options": [
       "Speed",
@@ -11928,7 +11928,7 @@
     "id": 796,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The device used for measuring electric current in a circuit is called",
     "options": [
       "Ammeter",
@@ -11943,7 +11943,7 @@
     "id": 797,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A metal wire of length l and diameter d has a resistance R. What would be the resistance of another wire of the same metal and of same length but having double the diameter?",
     "options": [
       "R",
@@ -11958,7 +11958,7 @@
     "id": 798,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "An object is dropped from a height onto the floor. Which one of the following remains uniform as it falls?",
     "options": [
       "Its acceleration",
@@ -11973,7 +11973,7 @@
     "id": 799,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "If an object is placed at the focus of a convex lens, its image is",
     "options": [
       "at the focus on the same side.",
@@ -11988,7 +11988,7 @@
     "id": 800,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following statements about the aperture of a convex lens is correct?",
     "options": [
       "It is equal to its radius of curvature.",
@@ -12003,7 +12003,7 @@
     "id": 801,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "When water is heated from 0°C to 4°C, its density",
     "options": [
       "remains constant.",
@@ -12018,7 +12018,7 @@
     "id": 802,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The acceleration due to gravity at the Earth's surface depends on",
     "options": [
       "its mass only.",
@@ -12033,7 +12033,7 @@
     "id": 803,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A person burned a firecracker in front of a cliff and heard its echo 5s after it burst. The distance of the cliff from the person, if the speed of the sound is 340 m/s, is close to",
     "options": [
       "1700 m",
@@ -12048,7 +12048,7 @@
     "id": 804,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Consider the following statements about the microphone and the speaker of a mobile phone: 1. The microphone converts sound to a mechanical signal. 2. The microphone converts sound to an electrical signal. 3. The speaker converts a mechanical signal to sound. 4. The speaker converts an electrical signal to sound. Which of the statements given above are correct?",
     "options": [
       "1 and 3",
@@ -12063,7 +12063,7 @@
     "id": 805,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A 100 W electric bulb is used for 10 hours a day. How many units of electrical energy are consumed by the bulb in 3 days? (1 unit=1 kWh)",
     "options": [
       "3.00",
@@ -12078,7 +12078,7 @@
     "id": 806,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The area under the velocity-time graph for a particle moving in a straight line with uniform acceleration gives",
     "options": [
       "its average velocity",
@@ -12093,7 +12093,7 @@
     "id": 807,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The power of a lens of focal length 10 cm is",
     "options": [
       "0.1 dioptre",
@@ -12108,7 +12108,7 @@
     "id": 808,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Three resistors of resistances 11 , 22 and 33 are connected in parallel. Their equivalent resistance is equal to",
     "options": [
       "66",
@@ -12123,7 +12123,7 @@
     "id": 809,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The r.m.s. potential difference between the red live wire and black neutral wire in Indian domestic electric supply is",
     "options": [
       "160 V",
@@ -12138,7 +12138,7 @@
     "id": 810,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The hydrogen bomb and the uranium bomb are based, respectively on",
     "options": [
       "nuclear fusion and fission",
@@ -12153,7 +12153,7 @@
     "id": 811,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Sound and light waves are",
     "options": [
       "respectively longitudinal and transverse in air",
@@ -12168,7 +12168,7 @@
     "id": 812,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A car moving with a speed of 12 m/s is subjected to brakes which produces a deceleration of 6 m/s2. The car takes 2s to stop after the application of brakes. What is the distance covered by the car after the application of brakes?",
     "options": [
       "12 m",
@@ -12183,7 +12183,7 @@
     "id": 813,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Consider the following statements and identify the correct answer using the code given below: 1. In a thermal power station, fuels such as oil, coal or natural gas are used to generate electricity. 2. Fuels are burned to heat water and turn it into steam, which goes through a turbine, which spins and turns, generating electricity. Code:",
     "options": [
       "Statement 1 is correct but statement 2 is not correct",
@@ -12198,7 +12198,7 @@
     "id": 814,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Elongation of the eye-ball. Select the correct answer using the code given below:",
     "options": [
       "reduce to half of its original value.",
@@ -12213,7 +12213,7 @@
     "id": 815,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Sonic boom is produced when a source of sound travels at a speed:",
     "options": [
       "greater than the speed of sound.",
@@ -12228,7 +12228,7 @@
     "id": 816,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The following diagram shows a pendulum at different positions. Which one of the following statement is true?",
     "options": [
       "The pendulum has minimum potential energy at positions P and T.",
@@ -12243,7 +12243,7 @@
     "id": 817,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "In which of the following media is the speed of sound the maximum?",
     "options": [
       "Glass",
@@ -12258,7 +12258,7 @@
     "id": 818,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A charged particle moves through a magnetic field B with a velocity v. Which one of the following statements is true for the force (F) experienced by the particle?",
     "options": [
       "F is maximum when v and B are parallel to each other.",
@@ -12273,7 +12273,7 @@
     "id": 819,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following is the correct relation between Celsius and Fahrenheit temperature scales ? (Symbols carry their usual meanings)",
     "options": [
       "TF=10/3TC+32",
@@ -12288,7 +12288,7 @@
     "id": 820,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following statements is correct regarding the travel of a light beam from a rare to a dense medium ?",
     "options": [
       "A light beam travelling from a rare medium to a dense medium slows down and bends towards the normal.",
@@ -12303,7 +12303,7 @@
     "id": 821,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which of the following particles are subatomic particles? 1. Electron 2. Proton 3. Neutron 4. Muon",
     "options": [
       "1 and 4 only",
@@ -12318,7 +12318,7 @@
     "id": 822,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Qubit refers to a two-valued quantity used in",
     "options": [
       "classical computers",
@@ -12333,7 +12333,7 @@
     "id": 823,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The rest mass of Higgs boson is estimated to be close to",
     "options": [
       "0.5 MeV",
@@ -12348,7 +12348,7 @@
     "id": 824,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following correctly describes the principle of the working of an atomic clock?",
     "options": [
       "Vibration of a small quartz crystal",
@@ -12363,7 +12363,7 @@
     "id": 825,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following is not a ferromagnetic material?",
     "options": [
       "Cobalt",
@@ -12378,7 +12378,7 @@
     "id": 826,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which of the following statements is/are correct? 1. Angular velocity for all locations on the Earth's surface is the same while linear velocity varies. 2. Linear velocity is maximum at the equator and minimum at the poles.",
     "options": [
       "1 only",
@@ -12393,7 +12393,7 @@
     "id": 827,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "In which one among the following mediums would the speed of sound be maximum?",
     "options": [
       "Distilled water",
@@ -12408,7 +12408,7 @@
     "id": 828,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "X-rays can be used to: 1. inspect welded joints between two metal parts of a machine. 2. study structure of crystals. Select the answer using the code given below:",
     "options": [
       "1 only",
@@ -12423,7 +12423,7 @@
     "id": 829,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following heat transfers is an example of convection?",
     "options": [
       "Heating of food in a microwave oven",
@@ -12438,7 +12438,7 @@
     "id": 830,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The phenomenon of rainbow formation by water droplets involves:",
     "options": [
       "single refraction of sunlight",
@@ -12453,7 +12453,7 @@
     "id": 831,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following is the most appropriate reason for aircraft being equipped with conducting tyres?",
     "options": [
       "They can transfer the charge accumulated on their surfaces during lightning",
@@ -12468,7 +12468,7 @@
     "id": 832,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which of the following statements for persons suffering from presbyopia is/are correct? 1. They cannot distinguish colours. 2. It usually develops with ageing. 3. They wear either bi-focal lenses consisting of both concave and convex lenses or progressive lenses.",
     "options": [
       "1 only",
@@ -12483,7 +12483,7 @@
     "id": 833,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A sound wave having frequency of 300 Hz is travelling in an unknown medium. Its wavelength is not known. It travels a distance equal to 150 times its wavelength in time t. The value of t is:",
     "options": [
       "0.5 s",
@@ -12498,7 +12498,7 @@
     "id": 834,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "In the Sun-Earth system, the Sun, the Earth and Lagrange point L4 form:",
     "options": [
       "an isosceles triangle",
@@ -12513,7 +12513,7 @@
     "id": 835,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "If your image appears to be erect, no matter how far you stand from a mirror, the mirror is likely to be:",
     "options": [
       "Plane",
@@ -12528,7 +12528,7 @@
     "id": 836,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The rule that determines the direction of a magnetic field produced around a straight conductor carrying current is:",
     "options": [
       "Right-hand thumb rule",
@@ -12543,7 +12543,7 @@
     "id": 837,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A motorcycle has initial velocity of 5 m/s. After 3 seconds, the velocity is 7 m/s. The displacement of the motorcycle in 3 seconds is:",
     "options": [
       "21 m",
@@ -12558,7 +12558,7 @@
     "id": 838,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The minimum power required to lift a mass of 50 kg up to a vertical distance of 8 m in 10 s is: (Take g=10 m/s2)",
     "options": [
       "400 W",
@@ -12573,7 +12573,7 @@
     "id": 839,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one among the following statements is not correct?",
     "options": [
       "All bodies in the universe attract each other due to the gravitational force.",
@@ -12588,7 +12588,7 @@
     "id": 840,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A body floats in a liquid if the buoyant force is :",
     "options": [
       "equal to its weight.",
@@ -12603,7 +12603,7 @@
     "id": 841,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A metallic sphere of mass 1 kg and volume 2×10-4m3 is completely immersed in water. The buoyant force exerted by water on the sphere is: (Given: density of water =1000 kg/m3, g=10 m/s2)",
     "options": [
       "0.5 N",
@@ -12618,7 +12618,7 @@
     "id": 842,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A light bulb rated as 60 W at 220 V has a potential difference of 110 V across its ends. The power dissipated in this light bulb is:",
     "options": [
       "30 W",
@@ -12633,7 +12633,7 @@
     "id": 843,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one among the following is used in a simple microscope?",
     "options": [
       "Diverging lens",
@@ -12648,7 +12648,7 @@
     "id": 844,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The force with which the Earth attracts an object is called:",
     "options": [
       "Weight of the object",
@@ -12663,7 +12663,7 @@
     "id": 845,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The rule to determine the direction of a current induced in a coil due to its rotation in a magnetic field is:",
     "options": [
       "Right-Hand Thumb Rule.",
@@ -12678,7 +12678,7 @@
     "id": 846,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A car travels a total distance L. It travels half the distance with speed v1 and the other half with speed v2. The average speed of the car is:",
     "options": [
       "1+v22",
@@ -12693,7 +12693,7 @@
     "id": 847,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "The linear momentum of a particle is conserved if:",
     "options": [
       "the net force on it is maximum.",
@@ -12708,7 +12708,7 @@
     "id": 848,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "When a stone tied to a string is whirled in a circle, the work done on it by the string:",
     "options": [
       "is positive.",
@@ -12723,7 +12723,7 @@
     "id": 849,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Assume 'A' does 500 J of work in 'x' minutes and 'B' does 1000 J of work in 20 minutes. If the power delivered by 'A' is P1 and 'B' is P2 and P1=2P2, then 'x', in minutes is:",
     "options": [
       "10",
@@ -12738,7 +12738,7 @@
     "id": 850,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "A sound wave travelling at a speed of 330 m/s produces 20 crests and 20 troughs in 0.1 second. The wavelength of the sound wave is:",
     "options": [
       "1.1 m",
@@ -12753,7 +12753,7 @@
     "id": 851,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "An X-ray can be deflected:",
     "options": [
       "by a magnetic field.",
@@ -12768,7 +12768,7 @@
     "id": 852,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "In a simple astronomical telescope, the objective and the eyepiece used respectively, are:",
     "options": [
       "a convergent lens and a divergent lens.",
@@ -12783,7 +12783,7 @@
     "id": 853,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Twinkling of a star is due to:",
     "options": [
       "Interference of light",
@@ -12798,7 +12798,7 @@
     "id": 854,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Van de Graaff generator generates:",
     "options": [
       "electrostatic charge",
@@ -12813,7 +12813,7 @@
     "id": 855,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following statements qualitatively explains the second law of motion?",
     "options": [
       "The rate of change of angular momentum of a body is equal to the applied force.",
@@ -12828,7 +12828,7 @@
     "id": 856,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one of the following gives the triple point of water?",
     "options": [
       "Temperature 273.16 K and Pressure 1 Pa",
@@ -12843,7 +12843,7 @@
     "id": 857,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one among the following has the least coefficient of thermal conductivity?",
     "options": [
       "(option text unclear in source PDF)",
@@ -12858,7 +12858,7 @@
     "id": 858,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "An X-ray beam can be deflected by:",
     "options": [
       "An electric field",
@@ -12873,7 +12873,7 @@
     "id": 859,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "An object is placed at a distance of 15 cm in front of a concave mirror with a radius of curvature of 20 cm. Which one among the following statements is correct for the image formed?",
     "options": [
       "The image is 30 cm from the mirror on the same side as the object.",
@@ -12888,7 +12888,7 @@
     "id": 860,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one among the following statements regarding the electrical resistivity of a conducting wire is correct?",
     "options": [
       "The resistivity of the conductor increases if the length of the wire is increased.",
@@ -12903,7 +12903,7 @@
     "id": 861,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Which one among the following statements related to electric cells is correct?",
     "options": [
       "A primary cell is rechargeable.",
@@ -12918,7 +12918,7 @@
     "id": 862,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "An object is launched horizontally from a height of 45 m above the ground with a speed of 10 m/s. The time at which the object will hit the ground is: (Take )",
     "options": [
       "6 s",
@@ -12933,7 +12933,7 @@
     "id": 863,
     "type": "pyq",
     "category": "GS",
-    "topic": "Physics",
+     "topic": "Science",
     "question": "Consider the following statements regarding waves: 1. If the particles of a medium move along the direction of motion of the wave, the wave is called a longitudinal wave. 2. If the particles of a medium move perpendicular to the direction of motion of the wave, the wave is called a transverse wave. 3. Transverse waves may involve change in the shape of the medium, whereas longitudinal waves involve change in the density of the medium. Which of the statements given above is/are correct?",
     "options": [
       "1 and 2 only",
@@ -12948,7 +12948,7 @@
     "id": 864,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "When we heat lead nitrate Pb(NO3)2 in a boiling tube, we observe the emission of brown fumes. Which one of the following is the brown gas?",
     "options": [
       "NO",
@@ -12963,7 +12963,7 @@
     "id": 865,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following substances do silver articles react with, that makes the silver articles black?",
     "options": [
       "Sulphur",
@@ -12978,7 +12978,7 @@
     "id": 866,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following metals is kept immersed in Kerosene oil to protect it and to prevent accidental fire?",
     "options": [
       "Calcium",
@@ -12993,7 +12993,7 @@
     "id": 867,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "A solution contains 20 g of solute in 180 g of solvent. If the solvent is water, what is the concentration of the solution in terms of mass by mass percentage?",
     "options": [
       "11.1%",
@@ -13008,7 +13008,7 @@
     "id": 868,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following elements is a non-metal but is lustrous?",
     "options": [
       "Carbon",
@@ -13023,7 +13023,7 @@
     "id": 869,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following metals has both malleability and ductility properties?",
     "options": [
       "Na",
@@ -13038,7 +13038,7 @@
     "id": 870,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following naturally occurring acids is found in abundance in tomato?",
     "options": [
       "Acetic acid",
@@ -13053,7 +13053,7 @@
     "id": 871,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is used in soda-acid fire extinguishers?",
     "options": [
       "Sodium chloride",
@@ -13068,7 +13068,7 @@
     "id": 872,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following sodium compounds is used for softening hard water?",
     "options": [
       "Na2CO3",
@@ -13083,7 +13083,7 @@
     "id": 873,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Calcium oxide reacts vigorously with water to produce slaked lime whose solution is used for white-washing walls. This slaked lime reacts with component (A) in air to form a thin layer of component (B) to give a shiny finish. What are the components (A) and (B)?",
     "options": [
       "A-O2; B-CaCO3",
@@ -13098,7 +13098,7 @@
     "id": 874,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which of the following statements about universal indicator is/are true? 1. It is a mixture of several indicators. 2. It shows different colours at different concentrations of hydrogen ions in solution. 3. It helps to determine the strength of given acid and base in titration. Select the correct answer using the code given below:",
     "options": [
       "1 only",
@@ -13113,7 +13113,7 @@
     "id": 875,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which of the following carbon allotropes is/are good conductor(s) of electricity? 1. Diamond 2. Graphite 3. Fullerene Select the correct answer using the code given below:",
     "options": [
       "1 only",
@@ -13128,7 +13128,7 @@
     "id": 876,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "What is the approximate percentage of carbon in the Earth's crust?",
     "options": [
       "0.045%",
@@ -13143,7 +13143,7 @@
     "id": 877,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "When copper reacts with moist carbon dioxide (CO2) in air, it forms a green coating of which one of the following compounds?",
     "options": [
       "Cupric carbonate",
@@ -13158,7 +13158,7 @@
     "id": 878,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "What is the name of the process that converts sulphide ores into oxides by heating strongly in the presence of excess air?",
     "options": [
       "Calcination",
@@ -13173,7 +13173,7 @@
     "id": 879,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "What are the constituents of alloy solder?",
     "options": [
       "Pb and Zn",
@@ -13188,7 +13188,7 @@
     "id": 880,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is the correct reactivity order of metals reacting with dilute HCl?",
     "options": [
       "Mg > Al > Zn > Fe",
@@ -13203,7 +13203,7 @@
     "id": 881,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following acids is secreted by leaves of Nettle that causes painful stings?",
     "options": [
       "Methanoic acid",
@@ -13218,7 +13218,7 @@
     "id": 882,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which of the following statements is/are correct? 1. All the bases are alkali. 2. All alkalis dissolve in water. 3. Alkalis are soapy to touch, bitter in taste and corrosive in nature. Select the correct answer using the code given below:",
     "options": [
       "1 only",
@@ -13233,7 +13233,7 @@
     "id": 883,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following materials is present in a guard tube (drying tube) that is used for preparation of HCl gas?",
     "options": [
       "Calcium chloride",
@@ -13248,7 +13248,7 @@
     "id": 884,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "The number of moles of oxygen gas used in the complete combustion of 1 mole of glucose is:",
     "options": [
       "1",
@@ -13263,7 +13263,7 @@
     "id": 885,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is not an example of an oxidation reaction?",
     "options": [
       "The taste of butter changes if left for a longer period",
@@ -13278,7 +13278,7 @@
     "id": 886,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Methanoic acid is normally found in:",
     "options": [
       "muscles",
@@ -13293,7 +13293,7 @@
     "id": 887,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "What is the number of moles of 'He' in 104 g of helium gas?",
     "options": [
       "52",
@@ -13308,7 +13308,7 @@
     "id": 888,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "While burning hydrocarbon fuels, if we see a yellow flame with lots of black smoke, it means that the fuel is:",
     "options": [
       "made of saturated hydrocarbons.",
@@ -13323,7 +13323,7 @@
     "id": 889,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "The number of saturated and unsaturated bonds in cyclohexane are:",
     "options": [
       "9 and 0 respectively.",
@@ -13338,7 +13338,7 @@
     "id": 890,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following statements is true when non-metals are dissolved in water?",
     "options": [
       "They produce basic oxides.",
@@ -13353,7 +13353,7 @@
     "id": 891,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following statements about biogas is not correct?",
     "options": [
       "It is mainly composed of methane gas.",
@@ -13368,7 +13368,7 @@
     "id": 892,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following living organisms gives litmus?",
     "options": [
       "Protozoa",
@@ -13383,7 +13383,7 @@
     "id": 893,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Stinging hair of nettle leaves inject fluid in the human body causing burning pain. The fluid is",
     "options": [
       "Methanoic acid",
@@ -13398,7 +13398,7 @@
     "id": 894,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Milk of Magnesia is used when people suffer from indigestion of food. It is a",
     "options": [
       "Strong base",
@@ -13413,7 +13413,7 @@
     "id": 895,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following pairs of metals are very good conductors of heat?",
     "options": [
       "Silver and Copper",
@@ -13428,7 +13428,7 @@
     "id": 896,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "School bells are made of metals because metals are",
     "options": [
       "Malleable",
@@ -13443,7 +13443,7 @@
     "id": 897,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Consider the following statements about Tincture of Iodine: 1. It is an antiseptic solution. 2. Iodine is kept in alcohol-water mixture. 3. Concentration of iodine is very low. How many of the above statements is/are correct?",
     "options": [
       "1",
@@ -13458,7 +13458,7 @@
     "id": 898,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Cl is not isoelectronic with",
     "options": [
       "K+",
@@ -13473,7 +13473,7 @@
     "id": 899,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "A patient's abdomen (alimentary canal) can be examined by X-ray after administering which one of the following metal salts in the patient's meal?",
     "options": [
       "Barium sulphate",
@@ -13488,7 +13488,7 @@
     "id": 900,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "In the joining of railway tracks, iron oxide is made to react with",
     "options": [
       "Aluminium",
@@ -13503,7 +13503,7 @@
     "id": 901,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Consider the following statements regarding burning of magnesium ribbon in air: 1. White powder of MgO is formed. 2. It is an example of combustion reaction. 3. Heat and light are produced. Which of the statements given above are correct?",
     "options": [
       "1 and 2 only",
@@ -13518,7 +13518,7 @@
     "id": 902,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which of the following statements with regard to the reaction given below are correct? CaO(s)+H2O(l)→ Ca(OH)2(aq)+Heat 1. Quicklime is used for whitewashing of walls. 2. The solution of slaked lime is used for whitewashing of walls. 3. CaO reacts slowly with CO2 in air to form a thin layer of CaCO3 on walls. 4. Calcium hydroxide called 'slaked lime' is an inorganic compound. Select the correct answer using the code given below.",
     "options": [
       "1 and 4 only",
@@ -13533,7 +13533,7 @@
     "id": 903,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which of the following statements with regard to heating of lead nitrate powder over a flame are correct? 1. Brown fumes of NO are released. 2. Colourless O2 gas is released. 3. It is an example of oxidation reaction. 4. It is an example of thermal decomposition used for production of NO2 gas. Select the correct answer using the code given below.",
     "options": [
       "1 and 2",
@@ -13548,7 +13548,7 @@
     "id": 904,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is not an oxidation reaction?",
     "options": [
       "Rusting of iron",
@@ -13563,7 +13563,7 @@
     "id": 905,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "What is the chemical composition of a soda-acid type fire extinguisher?",
     "options": [
       "Solution of sodium hydrogen carbonate and sulfuric acid",
@@ -13578,7 +13578,7 @@
     "id": 906,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Consider the following statements: While diluting concentrated nitric acid solution 1. the concentration of [H3O+] ions/volume increases 2. water must be added slowly to concentrated acid 3. acid must be added slowly to water Which of the statements given above is/are correct?",
     "options": [
       "1, 2 and 3",
@@ -13593,7 +13593,7 @@
     "id": 907,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is the correct order of pH for the given substances?",
     "options": [
       "Coffee < Lemon juice < Milk of magnesia < Blood",
@@ -13608,7 +13608,7 @@
     "id": 908,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is not true for anodizing process?",
     "options": [
       "It makes aluminium corrosion resistant.",
@@ -13623,7 +13623,7 @@
     "id": 909,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Naphthalene burns with a yellow sooty flame. This is because",
     "options": [
       "carbon to hydrogen ratio is low",
@@ -13638,7 +13638,7 @@
     "id": 910,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which of the following statements are true for the reaction of Fe2O3 with aluminium? 1. It is known as the 'thermite reaction'. 2. The heat evolved is used for welding purpose. 3. Aluminium metal acts as an oxidizing agent. 4. Molten Fe and Al are formed at the end of the reaction. Select the correct answer using the code given below.",
     "options": [
       "1 and 2",
@@ -13653,7 +13653,7 @@
     "id": 911,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one among the following are the correct symbols for the elements gold, tin and lead, respectively?",
     "options": [
       "Ga, Sb, Pb",
@@ -13668,7 +13668,7 @@
     "id": 912,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which among the following methods is used to separate the constituents present in a compound?",
     "options": [
       "Electrochemical method",
@@ -13683,7 +13683,7 @@
     "id": 913,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "During white-washing of walls, slaked lime reacts slowly with carbon dioxide in air to form a thin layer of calcium carbonate on the walls. Which of the following reactions represents this correctly?",
     "options": [
       "CaO(s)+CO2(g)→ CaCO3 (s)",
@@ -13698,7 +13698,7 @@
     "id": 914,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following equations is the balanced chemical equation for the given reaction? Fe+H2O→ Fe3O4+H2",
     "options": [
       "Fe+4H2O→ Fe3O4+H2",
@@ -13713,7 +13713,7 @@
     "id": 915,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "In which one of the following cases do both physical and chemical changes take place?",
     "options": [
       "Burning of candle",
@@ -13728,7 +13728,7 @@
     "id": 916,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following statements is correct about diamond and graphite?",
     "options": [
       "Diamond and graphite have similar physical and chemical properties.",
@@ -13743,7 +13743,7 @@
     "id": 917,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one among the following substances is a compound?",
     "options": [
       "Sugar",
@@ -13758,7 +13758,7 @@
     "id": 918,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "What is the total number of naturally occurring elements?",
     "options": [
       "114",
@@ -13773,7 +13773,7 @@
     "id": 919,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following statements regarding acids is not correct?",
     "options": [
       "Hydrochloric acid is present in the gastric juice secreted by the stomach.",
@@ -13788,7 +13788,7 @@
     "id": 920,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is an amphoteric oxide?",
     "options": [
       "MgO",
@@ -13803,7 +13803,7 @@
     "id": 921,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "The correct order of octane number of butane, pentane, hexane and cyclohexane is",
     "options": [
       "butane > pentane > hexane > cyclohexane",
@@ -13818,7 +13818,7 @@
     "id": 922,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is the correct order of reactivity of Mg, Al, Zn and Fe with HCl?",
     "options": [
       "Mg>Al>Zn>Fe",
@@ -13833,7 +13833,7 @@
     "id": 923,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Methanol is toxic because",
     "options": [
       "methanol coagulates the protoplasm",
@@ -13848,7 +13848,7 @@
     "id": 924,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Vinegar is",
     "options": [
       "5-8% solution of acetic acid in water",
@@ -13863,7 +13863,7 @@
     "id": 925,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is known as cetane?",
     "options": [
       "Hexadecane",
@@ -13878,7 +13878,7 @@
     "id": 926,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "The correct order of atomic radius of Li, Na, Be and O is",
     "options": [
       "Na>Li>Be>0",
@@ -13893,7 +13893,7 @@
     "id": 927,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which of the following catalytic systems is used for the reduction of unsaturated hydrocarbon to saturated hydrocarbon?",
     "options": [
       "Copper and H2",
@@ -13908,7 +13908,7 @@
     "id": 928,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following has the highest ionic character?",
     "options": [
       "BeF3",
@@ -13923,7 +13923,7 @@
     "id": 929,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "In which of the following colloids is the dispersing medium a liquid?",
     "options": [
       "Mist",
@@ -13938,7 +13938,7 @@
     "id": 930,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "The two isotopes of elemental chlorine are:",
     "options": [
       "1735C and 1736C",
@@ -13953,7 +13953,7 @@
     "id": 931,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one among the following metals is not stored under oil?",
     "options": [
       "Sodium",
@@ -13968,7 +13968,7 @@
     "id": 932,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Potassium nitrate is not used:",
     "options": [
       "as a fertilizer",
@@ -13983,7 +13983,7 @@
     "id": 933,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "The surface of the concrete structure of a new construction is covered with straw/gunny bags by wetting. This is done to:",
     "options": [
       "prevent fast evaporation, until hydration has proceeded well",
@@ -13998,7 +13998,7 @@
     "id": 934,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one among the following statements for the gases mentioned below is not correct?",
     "options": [
       "Hydrogen has 3 isotopes.",
@@ -14013,7 +14013,7 @@
     "id": 935,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Match List-I with List-II and select the correct answer using the code given below. Trade Name Chemical Name A. Bleaching powder 1. Sodium bicarbonate B. Baking soda 2. Sodium carbonate, 10H■O C. Washing soda 3. Calcium oxychloride D. Plaster of Paris 4. Calcium sulphate, ½H■O",
     "options": [
       "A-3, B-1, C-2, D-4",
@@ -14028,7 +14028,7 @@
     "id": 936,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one among the following statements is not true for glass?",
     "options": [
       "Sodium silicate is known as water glass.",
@@ -14043,7 +14043,7 @@
     "id": 937,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one among the following is responsible for determining the chemical properties of an element?",
     "options": [
       "Protons",
@@ -14058,7 +14058,7 @@
     "id": 938,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one among the following is used in bleaching of paper?",
     "options": [
       "Chloride",
@@ -14073,7 +14073,7 @@
     "id": 939,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Isobars of elements have same:",
     "options": [
       "Atomic numbers.",
@@ -14088,7 +14088,7 @@
     "id": 940,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following could not be explained by Rutherford's nuclear model?",
     "options": [
       "Stability of the atom",
@@ -14103,7 +14103,7 @@
     "id": 941,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "If atomic number of an element is 11, the correct name, symbol and valency are:",
     "options": [
       "Lithium, Li, 1",
@@ -14118,7 +14118,7 @@
     "id": 942,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following gas is used in making soft drinks?",
     "options": [
       "NH3",
@@ -14133,7 +14133,7 @@
     "id": 943,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is considered as a compound?",
     "options": [
       "Silicon",
@@ -14148,7 +14148,7 @@
     "id": 944,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Rutherford's a-particle scattering experiment on gold foil is responsible for the discovery of:",
     "options": [
       "Neutron",
@@ -14163,7 +14163,7 @@
     "id": 945,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is a metalloid?",
     "options": [
       "Germanium",
@@ -14178,7 +14178,7 @@
     "id": 946,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is not explained by the Dalton's atomic theory?",
     "options": [
       "Law of conservation of mass",
@@ -14193,7 +14193,7 @@
     "id": 947,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following contains all Lewis acids?",
     "options": [
       "AlCl3, Co3+, BF3",
@@ -14208,7 +14208,7 @@
     "id": 948,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Number of electrons present in the species H2+, He, H2 and O2+ respectively are:",
     "options": [
       "1, 2, 2, 15",
@@ -14223,7 +14223,7 @@
     "id": 949,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following metals is widely extracted by the electrolysis of its molten compound?",
     "options": [
       "Cu",
@@ -14238,7 +14238,7 @@
     "id": 950,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is not a property of 'graphene'?",
     "options": [
       "It is the thinnest material known so far.",
@@ -14253,7 +14253,7 @@
     "id": 951,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Why do plastics not degrade easily?",
     "options": [
       "They have strong ionic bonds.",
@@ -14268,7 +14268,7 @@
     "id": 952,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is the correct chemical formula of carboxylic acid?",
     "options": [
       "C3H7OH",
@@ -14283,7 +14283,7 @@
     "id": 953,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following statements is not correct for benzene?",
     "options": [
       "Each carbon atom forms sigma bonds with two other carbon atoms with a bond angle of 120°.",
@@ -14298,7 +14298,7 @@
     "id": 954,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following is not a nitrogen fertilizer?",
     "options": [
       "(NH4)2SO4",
@@ -14313,7 +14313,7 @@
     "id": 955,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following general electronic configurations correctly represent a transition metal element?",
     "options": [
       "(n-2)d1-10ns2",
@@ -14328,7 +14328,7 @@
     "id": 956,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Variable oxidation numbers are possible for:",
     "options": [
       "Sodium",
@@ -14343,7 +14343,7 @@
     "id": 957,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one of the following gas smells like a rotten egg?",
     "options": [
       "Ammonia",
@@ -14358,7 +14358,7 @@
     "id": 958,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "The chemical reaction K2SO4+BaCl2→2KCl+BaSO4 (aq.) is an example of:",
     "options": [
       "Addition reaction",
@@ -14373,7 +14373,7 @@
     "id": 959,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "A solution with a pH value less than 7 is a/an:",
     "options": [
       "Neutral solution",
@@ -14388,7 +14388,7 @@
     "id": 960,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Match List-I with List-II and select the correct answer using the code given below. Symbol of Element Group of Element A. Sm (Samarium) 1. Transition Elements B. Cs (Caesium) 2. Alkali Metals C. Os (Osmium) 3. Actinoid Elements D. Np (Neptunium) 4. Lanthanoid Elements",
     "options": [
       "A-4, B-2, C-1, D-3",
@@ -14403,7 +14403,7 @@
     "id": 961,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Consider the following statements regarding matter: 1. Elements cannot be broken down into simpler substances. 2. A compound has variable composition and can be broken down into elements. 3. The solution of sulphur in carbon disulphide is an example of a homogeneous mixture. Which of the statements given above is/are not correct? + 1",
     "options": [
       "2 only",
@@ -14418,7 +14418,7 @@
     "id": 962,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Consider the following statements: 1. Concentrated is used as a dehydrating agent in esterification reaction. 2. The hydrophilic part of soap is oil and it dissolves in water. 3. Nickel is used as a catalyst in converting vegetable oil into fat. Which of the statements given above are correct? +1",
     "options": [
       "1, 2, 3 and 4",
@@ -14433,7 +14433,7 @@
     "id": 963,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one among the following pairs is not correctly matched?",
     "options": [
       "Nitrogen : Three unpaired electrons",
@@ -14448,7 +14448,7 @@
     "id": 964,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Consider the following statements: 1. Packaged foods are purged with nitrogen gas in order to prevent their oxidation. 2. Tooth decay starts when pH of the mouth is lower than 5.5. 3. The reactivity of metals decreases in the order: . Which of the statements given above is/are not correct?",
     "options": [
       "2 and 3",
@@ -14463,7 +14463,7 @@
     "id": 965,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one among the following pairs of compound and chemical formula is not correctly matched?",
     "options": [
       "Bleaching powder:",
@@ -14478,7 +14478,7 @@
     "id": 966,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Consider the following statements: 1. The temporary hardness in water is due to the presence of bicarbonates of calcium. 2. The permanent hardness in water is due to the presence of soluble chlorides and sulphates of calcium and magnesium. 3. The permanent hardness in water is removed by adding to water. Which of the statements given above are correct?",
     "options": [
       "1 and 2 only",
@@ -14493,7 +14493,7 @@
     "id": 967,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which one among the following statements regarding micelles is not correct?",
     "options": [
       "Soap molecules are sodium or potassium salts of long-chain carboxylic acids.",
@@ -14508,7 +14508,7 @@
     "id": 968,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Consider the following statements regarding bases and alkalis: 1. All bases dissolve in water. 2. Bases which are soluble in water are called alkalis. 3. An alkali is soapy to touch, bitter and corrosive. 4. Addition of water to an alkali generates heat. Which of the statements given above are correct?",
     "options": [
       "1, 2, 3 and 4",
@@ -14523,7 +14523,7 @@
     "id": 969,
     "type": "pyq",
     "category": "GS",
-    "topic": "Chemistry",
+     "topic": "Science",
     "question": "Which of the following statements relating to the Modern Periodic Table is/are correct? 1. The atomic radius increases on moving from left to right across a period. 2. Germanium, Tellurium, and Copper are transition metals. 3. The two isotopes of Chlorine occupy the same position in the periodic table. 4. The metallic property of Ca, Ba, Be and Sr follows the order: .",
     "options": [
       "3 only",
@@ -14538,7 +14538,7 @@
     "id": 970,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Cell wall is not present in cells of",
     "options": [
       "Bacteria",
@@ -14553,7 +14553,7 @@
     "id": 971,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "A child receives a tall beautiful plant as a birthday gift from his father with a quiz. The father asked her how she would verify whether this tall plant was the progeny of both the tall parents or one tall and one short parent plant. She could verify this through",
     "options": [
       "cross-pollination",
@@ -14568,7 +14568,7 @@
     "id": 972,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "A student was doing an experiment on increasing the cell division among plants. She asked her supervisor to suggest the specific plant hormone for the same. Had you been her supervisor, which plant hormone would you suggest?",
     "options": [
       "Abscisic acid",
@@ -14583,7 +14583,7 @@
     "id": 973,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which cell organelles have their own DNA and Ribosomes?",
     "options": [
       "Golgi body and Endoplasmic Reticulum",
@@ -14598,7 +14598,7 @@
     "id": 974,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Osmosis is the process of movement of water molecules from its",
     "options": [
       "higher concentration to its lower concentration through a cell wall.",
@@ -14613,7 +14613,7 @@
     "id": 975,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which of the following statements about 'fission' is correct? 1. It is related with the creation of new individuals by means of cell division in unicellular organism. 2. It is related with the transformation of heavier nuclei into smaller nuclei. 3. It is related with the creation of a heavier nuclei by means of combining two higher nuclei. Select the correct answer using the code given below:",
     "options": [
       "1 only",
@@ -14628,7 +14628,7 @@
     "id": 976,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "An antibiotic is not useful against a virus whereas a vaccine is. Which one of the following is the most appropriate reason for this?",
     "options": [
       "An antibiotic can break RNA only, whereas virus has DNA.",
@@ -14643,7 +14643,7 @@
     "id": 977,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "'Sleeping sickness' is caused by",
     "options": [
       "Trypanosoma",
@@ -14658,7 +14658,7 @@
     "id": 978,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one among the following is a free living animal?",
     "options": [
       "Liver fluke",
@@ -14673,7 +14673,7 @@
     "id": 979,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following is the structure of a cardiac muscle cell?",
     "options": [
       "Cylindrical, Unbranched and Multinucleate",
@@ -14688,7 +14688,7 @@
     "id": 980,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which of the following limits the number of trophic levels in a food chain?",
     "options": [
       "Deficient food supply",
@@ -14703,7 +14703,7 @@
     "id": 981,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "In pea, a pure tall plant (TT) is crossed with a short plant (tt). What will be the ratio of pure tall plants to short plants in the F2 generation?",
     "options": [
       "1:1",
@@ -14718,7 +14718,7 @@
     "id": 982,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following statements about variations is not true?",
     "options": [
       "Variation is minimum in asexual reproduction.",
@@ -14733,7 +14733,7 @@
     "id": 983,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "While studying vegetation of an area, terms like 'population' and 'community' are often used. Which one of the following statements best describes a population?",
     "options": [
       "A group of organisms of one species, living in the same area at the same time.",
@@ -14748,7 +14748,7 @@
     "id": 984,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "In the human body, blood flows through a process of double circulation. Which one of the following statements is true in this regard?",
     "options": [
       "Oxygenated blood reaches the left side of the heart from the lungs.",
@@ -14763,7 +14763,7 @@
     "id": 985,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "In which of the following groups of organisms, is food material broken down outside the body and absorbed?",
     "options": [
       "Yeast, mushroom, bread mould",
@@ -14778,7 +14778,7 @@
     "id": 986,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Fertilizers are used to obtain higher yields of crops. However, all nutrients are usually not available in fertilizers. Which one of the following nutrients is usually not available in fertilizers?",
     "options": [
       "Iron",
@@ -14793,7 +14793,7 @@
     "id": 987,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Rupa and Sachin observed an animal in their school garden. Rupa called it an insect while Sachin identified it as an earthworm. Which one of the following characteristics confirms that it is an insect?",
     "options": [
       "The animal had jointed legs.",
@@ -14808,7 +14808,7 @@
     "id": 988,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Animals which are marine, bilaterally symmetrical, have a coelom and a notochord, but never form a vertebral column are placed under which one of the following groups?",
     "options": [
       "Chordata",
@@ -14823,7 +14823,7 @@
     "id": 989,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "What is the location of intercalary meristem in plants?",
     "options": [
       "Base of the leaves or internodes",
@@ -14838,7 +14838,7 @@
     "id": 990,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "An infection constantly maintained at a baseline level in a geographic area without external input is known as",
     "options": [
       "Endemic",
@@ -14853,7 +14853,7 @@
     "id": 991,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following statements is not correct with regard to genetically modified organisms?",
     "options": [
       "In this technique a gene from one organism is isolated and transferred to the cell of another organism.",
@@ -14868,7 +14868,7 @@
     "id": 992,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Suppose, due to an accident, the delicate lining of the mouth and the oesophagus of a person is injured. In this case, which one of the following tissues will be affected?",
     "options": [
       "Smooth muscle",
@@ -14883,7 +14883,7 @@
     "id": 993,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following statements is correct about the cell membrane?",
     "options": [
       "It is made up of cellulose.",
@@ -14898,7 +14898,7 @@
     "id": 994,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Plants prepare glucose in the process of:",
     "options": [
       "respiration",
@@ -14913,7 +14913,7 @@
     "id": 995,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "The disease rickets develops in children due to the deficiency of:",
     "options": [
       "Vitamin C",
@@ -14928,7 +14928,7 @@
     "id": 996,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Match List-I with List-II and select the correct answer using the code given below. Blood Vessel Function A. Pulmonary artery 1. Carries blood from lungs to heart B. Capillaries 2. Carries blood to heart muscle C. Coronary artery 3. Connection between arteries and veins D. Pulmonary vein 4. Carries blood from heart to lungs",
     "options": [
       "4 3 2 1",
@@ -14943,7 +14943,7 @@
     "id": 997,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which of the following mineral acids is found in human stomach?",
     "options": [
       "Hydrochloric acid",
@@ -14958,7 +14958,7 @@
     "id": 998,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Mutation in a virus is caused due to a change in its:",
     "options": [
       "cell size.",
@@ -14973,7 +14973,7 @@
     "id": 999,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Yeast, which is used to make bread, belongs to the group:",
     "options": [
       "Protista",
@@ -14988,7 +14988,7 @@
     "id": 1000,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Hyphae are:",
     "options": [
       "produced by yeast.",
@@ -15003,7 +15003,7 @@
     "id": 1001,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "In plant cells",
     "options": [
       "Nucleus does not need a membrane but chloroplasts are surrounded by their own membrane.",
@@ -15018,7 +15018,7 @@
     "id": 1002,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following statements about starch and glycogen is correct?",
     "options": [
       "Both starch and glycogen are found in plant cells.",
@@ -15033,7 +15033,7 @@
     "id": 1003,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following statements about the process of photosynthesis is correct?",
     "options": [
       "Light energy is directly converted to kinetic energy which oxidizes carbon dioxide.",
@@ -15048,7 +15048,7 @@
     "id": 1004,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Kwashiorkor, a form of malnutrition, is caused by the deficiency of",
     "options": [
       "Minerals",
@@ -15063,7 +15063,7 @@
     "id": 1005,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following pairs of enzymes do not work at acidic pH?",
     "options": [
       "Trypsin and Pepsin",
@@ -15078,7 +15078,7 @@
     "id": 1006,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Urea is produced by metabolism of",
     "options": [
       "Proteins",
@@ -15093,7 +15093,7 @@
     "id": 1007,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Deficiency of iron causes",
     "options": [
       "Anaemia",
@@ -15108,7 +15108,7 @@
     "id": 1008,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Storage of biological tissues such as blood, organs, semen requires low temperature which is achieved upon the usage of",
     "options": [
       "Liquid nitrogen",
@@ -15123,7 +15123,7 @@
     "id": 1009,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Fat in human body is stored in",
     "options": [
       "Adipose tissue",
@@ -15138,7 +15138,7 @@
     "id": 1010,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following is a feature of Membrane?",
     "options": [
       "Bilayer of phospholipid molecule in which proteins and cholesterol are embedded",
@@ -15153,7 +15153,7 @@
     "id": 1011,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following parts of human alimentary canal can be of maximum length?",
     "options": [
       "Stomach",
@@ -15168,7 +15168,7 @@
     "id": 1012,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "A sprinter feels cramps and pain in the thigh muscles after a run. This is due to accumulation of",
     "options": [
       "lactic acid",
@@ -15183,7 +15183,7 @@
     "id": 1013,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "A leaf was plucked from a plant on a sunny day and kept for 2 minutes in boiling water. It was subsequently immersed in boiling alcohol and treated with iodine solution. What will be the final colour of the leaf after the test?",
     "options": [
       "Colourless",
@@ -15198,7 +15198,7 @@
     "id": 1014,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "If the red blood cells (RBCs) of human blood are isolated and are diluted in normal saline (an isotonic solution to blood), what will happen to the RBCs?",
     "options": [
       "The RBCs will swell",
@@ -15213,7 +15213,7 @@
     "id": 1015,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following statements regarding bile secreted by liver is not correct?",
     "options": [
       "Bile contains enzymes for digestion of lipids.",
@@ -15228,7 +15228,7 @@
     "id": 1016,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "The blood pressure of a normal human being is found to be 120/80 mmHg. These \"numbers' represent the blood pressure at",
     "options": [
       "ventricular contraction and ventricular relaxation, respectively",
@@ -15243,7 +15243,7 @@
     "id": 1017,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Reflex arcs are evolved in animals for quick and efficient responses. Which one of the following sequences correctly represents a reflex arc?",
     "options": [
       "Receptor-Sensory neuron-Relay neuron in spinal cord-Brain-Motor neuron-Effector",
@@ -15258,7 +15258,7 @@
     "id": 1018,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following is essential for thyroid gland to make thyroxin?",
     "options": [
       "NaCl",
@@ -15273,7 +15273,7 @@
     "id": 1019,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "In plant cells, RNA is present in",
     "options": [
       "cytoplasm only",
@@ -15288,7 +15288,7 @@
     "id": 1020,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "In grasses, intercalary meristem is usually located at",
     "options": [
       "root tip",
@@ -15303,7 +15303,7 @@
     "id": 1021,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Xylem is a type of complex tissue in plants for upward conduction of water. Which one of the following xylem tissues consists of living cells?",
     "options": [
       "Tracheid",
@@ -15318,7 +15318,7 @@
     "id": 1022,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "The term, Phyllotaxy refers to the pattern of:",
     "options": [
       "arrangement of leaves.",
@@ -15333,7 +15333,7 @@
     "id": 1023,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Chromosomes are composed of DNA and :",
     "options": [
       "lipids",
@@ -15348,7 +15348,7 @@
     "id": 1024,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Bacteria have an undefined nuclear region which lacks a nuclear membrane and contains only DNA without proteins. Such a region is called:",
     "options": [
       "Nucleosome",
@@ -15363,7 +15363,7 @@
     "id": 1025,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "In the following simplified diagram of a plant cell, five parts/organelles are marked from 1 to 5: Which one of the following correctly represents the above parts/organelles ?",
     "options": [
       "1-cell membrane; 2 - cell wall; 3- vacuole; 4 - endoplasmic reticulum; 5- nucleus",
@@ -15378,7 +15378,7 @@
     "id": 1026,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following is the correct combination of organelles and their functions?",
     "options": [
       "Mitochondria - Respiration; Chloroplast - Photosynthesis; Ribosome - Protein Synthesis; Rough endoplasmic reticulum - Transport of proteins",
@@ -15393,7 +15393,7 @@
     "id": 1027,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Cell wall is absent in which one of the following organisms?",
     "options": [
       "Bacteria",
@@ -15408,7 +15408,7 @@
     "id": 1028,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Water goes up through xylem vessels in tall trees. The process in plants and properties of water that help in upward movement are:",
     "options": [
       "Respiration and cohesion",
@@ -15423,7 +15423,7 @@
     "id": 1029,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Energy and nutrients flow from one trophic level to another in an ecosystem. Which one of the following statements correctly describes the direction of flow of energy and nutrients in an ecosystem?",
     "options": [
       "Energy flow is cyclic and nutrient flow is unidirectional.",
@@ -15438,7 +15438,7 @@
     "id": 1030,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following is a saprophyte ?",
     "options": [
       "Cuscuta",
@@ -15453,7 +15453,7 @@
     "id": 1031,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "In ovules of Angiosperms, which one of the following is not a haploid cell?",
     "options": [
       "Nucellus",
@@ -15468,7 +15468,7 @@
     "id": 1032,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Photo 51 refers to an image of",
     "options": [
       "a crater on the Moon",
@@ -15483,7 +15483,7 @@
     "id": 1033,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which of the following statements is/are correct about vaccination that provides protection against an infectious disease? 1. It blocks the entry of the infectious agent into body. 2. It produces antibodies against infection. 3. It kills the infectious agent when it enters in the body.",
     "options": [
       "1 only",
@@ -15498,7 +15498,7 @@
     "id": 1034,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which cells in human body have no nucleus?",
     "options": [
       "Muscle cells",
@@ -15513,7 +15513,7 @@
     "id": 1035,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Microbodies found to be present in plant and animal cells contain",
     "options": [
       "broken down membranes",
@@ -15528,7 +15528,7 @@
     "id": 1036,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "An antibacterial enzyme present in saliva and tears is called",
     "options": [
       "ribozyme",
@@ -15543,7 +15543,7 @@
     "id": 1037,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which set of vegetables is underground stem or modified stem of a plant?",
     "options": [
       "Potato, artichoke, round gourd",
@@ -15558,7 +15558,7 @@
     "id": 1038,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "On a day when I am in hurry to go to office, I have a fixed quantity of rice which was just cooked and kept in a bowl. In order to cool it quickly, which one of the following is the best option?",
     "options": [
       "Let it be kept on the table in a room where there is no fan, no air conditioner",
@@ -15573,7 +15573,7 @@
     "id": 1039,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "The causal organism of dengue fever is a mosquito-borne virus which belongs to which one among the following categories?",
     "options": [
       "Flavi-ribo virus",
@@ -15588,7 +15588,7 @@
     "id": 1040,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "From which among the following are blood clotting factors released?",
     "options": [
       "RBCs",
@@ -15603,7 +15603,7 @@
     "id": 1041,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Pulse is felt due to the rhythmic contraction and relaxation of the",
     "options": [
       "chambers of heart",
@@ -15618,7 +15618,7 @@
     "id": 1042,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "When eggs are heated, the transparent liquid portion around yolk turns solid and turbid white. This happens due to the thermal denaturation of",
     "options": [
       "fats",
@@ -15633,7 +15633,7 @@
     "id": 1043,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one among the following is not a micronutrient for plants?",
     "options": [
       "Iron",
@@ -15648,7 +15648,7 @@
     "id": 1044,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Xylem in the plants are responsible for the transport of:",
     "options": [
       "Water",
@@ -15663,7 +15663,7 @@
     "id": 1045,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one among the following hormones inhibits the growth activity in plants?",
     "options": [
       "Auxins",
@@ -15678,7 +15678,7 @@
     "id": 1046,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which of the following category of biomolecules does Starch belong to?",
     "options": [
       "Protein",
@@ -15693,7 +15693,7 @@
     "id": 1047,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one among the following is not a feature of Xerophytes?",
     "options": [
       "Smaller leaves",
@@ -15708,7 +15708,7 @@
     "id": 1048,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Halophytes are the plants that grow on which one, among the following categories of soil?",
     "options": [
       "Acidic soil",
@@ -15723,7 +15723,7 @@
     "id": 1049,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one among the following is not a part of vascular bundle in plants?",
     "options": [
       "Phloem",
@@ -15738,7 +15738,7 @@
     "id": 1050,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which organelle in animal cells can digest foreign materials?",
     "options": [
       "Endoplasmic reticulum",
@@ -15753,7 +15753,7 @@
     "id": 1051,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Photosynthesis that converts light energy into chemical energy by the plants, involves the use of green pigments of leaves called chlorophyll. The only structure in a leaf that hosts chlorophyll is:",
     "options": [
       "Nucleus",
@@ -15768,7 +15768,7 @@
     "id": 1052,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which instrument is used to measure the blood pressure manually?",
     "options": [
       "Sphygmomanometer",
@@ -15783,7 +15783,7 @@
     "id": 1053,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Myopia is also known as:",
     "options": [
       "Far-sightedness",
@@ -15798,7 +15798,7 @@
     "id": 1054,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Why does the Rough Endoplasmic Reticulum look 'rough' under a microscope?",
     "options": [
       "Due to the presence of ribosomes on its surface",
@@ -15813,7 +15813,7 @@
     "id": 1055,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one among the following is not a plant hormone?",
     "options": [
       "Gibberellins",
@@ -15828,7 +15828,7 @@
     "id": 1056,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "The normal systolic pressure in human beings is:",
     "options": [
       "80 mm of Hg",
@@ -15843,7 +15843,7 @@
     "id": 1057,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Sponges belong to which one among the following phylum?",
     "options": [
       "Porifera",
@@ -15858,7 +15858,7 @@
     "id": 1058,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Lactose is made up of:",
     "options": [
       "Glucose only",
@@ -15873,7 +15873,7 @@
     "id": 1059,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "The enzymes which catalyze the same reaction but have different amino acid compositions are commonly referred as:",
     "options": [
       "Isoenzymes",
@@ -15888,7 +15888,7 @@
     "id": 1060,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "How many Carbon atoms are present in a Pyruvate molecule?",
     "options": [
       "2",
@@ -15903,7 +15903,7 @@
     "id": 1061,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "The human eye has a point that lacks photoreceptor cells. This is identified as:",
     "options": [
       "Fovea",
@@ -15918,7 +15918,7 @@
     "id": 1062,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one among the following is the correct scheme followed for classification of animals?",
     "options": [
       "Class → Phylum → Order → Genus → Family → Species",
@@ -15933,7 +15933,7 @@
     "id": 1063,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following is an example of airborne disease?",
     "options": [
       "Tuberculosis",
@@ -15948,7 +15948,7 @@
     "id": 1064,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "What are the four human blood types in ABO blood group typing?",
     "options": [
       "AO, BO, A and B",
@@ -15963,7 +15963,7 @@
     "id": 1065,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following is not a part of the male reproductive system in human beings?",
     "options": [
       "Prostate gland",
@@ -15978,7 +15978,7 @@
     "id": 1066,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which of the following are the different parts of a human brain?",
     "options": [
       "Forefront brain, Standard brain and Hind brain",
@@ -15993,7 +15993,7 @@
     "id": 1067,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Tooth enamel of humans is made up of:",
     "options": [
       "Calcium phosphate",
@@ -16008,7 +16008,7 @@
     "id": 1068,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "The inner lining of the human small intestine has numerous finger-like projections called:",
     "options": [
       "Sphincter",
@@ -16023,7 +16023,7 @@
     "id": 1069,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which of the following represent disaccharides?",
     "options": [
       "Starch and glycogen",
@@ -16038,7 +16038,7 @@
     "id": 1070,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following organelles can be seen in a prokaryotic cell?",
     "options": [
       "Mitochondria",
@@ -16053,7 +16053,7 @@
     "id": 1071,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "The central cytoplasmic region of a prokaryotic cell containing nucleic acids is called:",
     "options": [
       "Nucleus",
@@ -16068,7 +16068,7 @@
     "id": 1072,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Nearly all infants benefit from milk, but most adults cannot properly digest milk. If an elderly person can still digest milk, his body is producing enough of which enzyme?",
     "options": [
       "Cellulase",
@@ -16083,7 +16083,7 @@
     "id": 1073,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "The antibiotic penicillin can kill invading bacteria without harming human cells because it targets bacterial:",
     "options": [
       "Cell wall",
@@ -16098,7 +16098,7 @@
     "id": 1074,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "A researcher is studying different types of cells. In which cell type will he/she encounter the highest number of lysosomes?",
     "options": [
       "Pancreatic cell",
@@ -16113,7 +16113,7 @@
     "id": 1075,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one of the following is not a function of the pigment carotenoid?",
     "options": [
       "Responsible for yellow-orange hues of autumnal leaves",
@@ -16128,7 +16128,7 @@
     "id": 1076,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "A world chess champion has curly hair, attached earlobes and freckles. Which one of the following traits is not likely to be passed on to his/her offsprings?",
     "options": [
       "Chess skills",
@@ -16143,7 +16143,7 @@
     "id": 1077,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "In humans, which chamber of the heart receives oxygen-rich blood from the lungs first?",
     "options": [
       "Left atrium",
@@ -16158,7 +16158,7 @@
     "id": 1078,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Match List-I with List-II and select the correct answer using the code given below. Structure / Organelle Function A. Mitochondria 1. Maintenance of cell shape B. Cytoskeleton 2. Detoxification in liver cells C. Smooth ER 3. Storage of chemicals and cell enlargement D. Vacuoles 4. Cellular respiration",
     "options": [
       "A-4, B-2, C-1, D-3",
@@ -16173,7 +16173,7 @@
     "id": 1079,
     "type": "pyq",
     "category": "GS",
-    "topic": "Biology",
+     "topic": "Science",
     "question": "Which one among the following pairs of diseases and their types is not correctly matched?",
     "options": [
       "Polio : Viral disease",
