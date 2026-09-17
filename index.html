@@ -1,13 +1,13 @@
 <!-- Chosen Palette: Slate & Indigo (Background: #f8fafc, Card: #ffffff, Primary: #4f46e5, Accent: #0284c7, Success: #10b981, Danger: #ef4444, Warning: #f59e0b) -->
-<!-- Application Structure Plan: An automated repository-backed adaptive test engine tailored for CDS, CSE, and Competitive Examinations. 1. Dynamic Repository Loader: Strips all hardcoded question arrays and replaces them with an asynchronous Fetch API mechanism targeting exact repository JSON filenames (e.g. geographypyq.json, geographynew.json, arithmaticpyq.json). 2. Setup Panel: Real-time repository file checker, Exam Scheme Selector (CDS vs CSE vs Standard), Category & Sub-topic Filter, Execution Mode & Timer Controls, and direct file preview status. 3. Live Exam Panel: Subject header, mark-for-review toggle, rule indicator (+ve/-ve mark pill based on subject & selected scheme), question status palette, submit modal. 4. Analytics Dashboard: Exam-specific net score calculation engine, subject/topic accuracy matrix, Chart.js breakdown chart, and filterable solutions with full explanations. -->
-<!-- Visualization & Content Choices: Chart.js for subject/topic accuracy breakdown, Tailwind CSS for layout, HTML Unicode icons for UI elements, Vanilla JS Fetch API for repository file loading and state management. NO SVG or Mermaid JS used. -->
+<!-- Application Structure Plan: An automated repository-backed adaptive test engine with dynamic randomization and sampling tailored for CDS, CSE, and Competitive Examinations. 1. Multi-File Auto-Discovery Repository Loader: Scans and fetches sequential repository files (pyq1.json ... pyq15.json, new1.json ... new15.json, questions.json, etc.) and merges them into a master question pool. 2. Randomization & Sampling Controls in Setup: Allows users to choose question pool sampling (e.g., 10, 20, 50, 100, or All available) and toggles for Fisher-Yates randomization of both question order and answer option order. 3. Live Exam Panel: Subject header, mark-for-review toggle, rule indicator (+ve/-ve mark pill based on subject & scheme), question status palette, submit modal. 4. Analytics Dashboard: Exam-specific net score calculation engine with dynamic subject-specific scoring, subject/topic accuracy matrix, Chart.js breakdown chart, and filterable solutions with full explanations. -->
+<!-- Visualization & Content Choices: Chart.js for subject/topic accuracy breakdown, Tailwind CSS for layout, HTML Unicode icons for UI elements, Vanilla JS Fetch API with Promise.allSettled for multi-file repo discovery and state management. NO SVG or Mermaid JS used. -->
 <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PrepMaster - Repository-Driven Adaptive Test Portal</title>
+    <title>PrepMaster - Dynamic Randomizing Mock Test Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -69,7 +69,7 @@
                 </div>
                 <div>
                     <h1 class="font-bold text-lg leading-none">PrepMaster</h1>
-                    <span class="text-xs text-slate-400 font-medium">Auto-Fetching Repository Mock Platform</span>
+                    <span class="text-xs text-slate-400 font-medium">Randomized Multi-File Repository Engine</span>
                 </div>
             </div>
 
@@ -89,39 +89,44 @@
 
         <section id="viewSetup" class="max-w-4xl mx-auto space-y-6">
             <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
-                <div class="border-b border-slate-100 pb-5 mb-6">
-                    <h2 class="text-2xl font-bold text-slate-900">Configure Your Test</h2>
-                    <p class="text-sm text-slate-500 mt-1">
-                        Select subject categories, sub-topics, and test type. Questions are automatically fetched from JSON files in your repository (e.g. <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">geographypyq.json</code>, <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">arithmaticpyq.json</code>).
-                    </p>
+                <div class="border-b border-slate-100 pb-5 mb-6 flex items-start justify-between">
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-900">Configure Your Mock Test</h2>
+                        <p class="text-sm text-slate-500 mt-1">
+                            PrepMaster automatically scans your repo for files (e.g. <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">pyq1.json</code>, <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">pyq2.json</code>, <code class="bg-slate-100 px-1 rounded text-indigo-600 font-mono">questions.json</code>), shuffles the pool, and generates a unique test every attempt.
+                        </p>
+                    </div>
+                    <button onclick="scanRepositoryFiles()" class="text-xs font-bold bg-indigo-50 text-indigo-600 hover:bg-indigo-100 border border-indigo-200 px-3 py-2 rounded-lg transition flex items-center space-x-1 flex-shrink-0">
+                        <span>&#8635;</span> <span>Rescan Repo</span>
+                    </button>
                 </div>
 
-                <!-- Test Type Category (PYQs vs New Mocks) -->
+                <!-- Test Type Category (PYQs vs New Mocks vs Combined) -->
                 <div class="mb-6">
                     <label class="block text-sm font-semibold text-slate-700 mb-2">1. Select Question Type</label>
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
                         <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="typePyqCard">
                             <div class="flex items-center space-x-2">
-                                <input type="radio" name="testType" value="pyq" checked onchange="updateTypeUI()" class="text-indigo-600 focus:ring-indigo-500">
+                                <input type="radio" name="testType" value="pyq" checked onchange="updateFiltersAndPreview()" class="text-indigo-600 focus:ring-indigo-500">
                                 <span class="font-bold text-slate-800 text-sm">&#127891; Previous Year Papers (PYQ)</span>
                             </div>
-                            <span class="text-xs text-slate-500 mt-2 block">Fetches <code class="text-indigo-600 font-mono">[topic]pyq.json</code></span>
+                            <span class="text-xs text-slate-500 mt-2 block">Loads questions with <code class="text-indigo-600 font-mono">type: "pyq"</code></span>
                         </label>
 
                         <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="typeMockCard">
                             <div class="flex items-center space-x-2">
-                                <input type="radio" name="testType" value="new" onchange="updateTypeUI()" class="text-indigo-600 focus:ring-indigo-500">
+                                <input type="radio" name="testType" value="new" onchange="updateFiltersAndPreview()" class="text-indigo-600 focus:ring-indigo-500">
                                 <span class="font-bold text-slate-800 text-sm">&#127919; New Mock Questions</span>
                             </div>
-                            <span class="text-xs text-slate-500 mt-2 block">Fetches <code class="text-indigo-600 font-mono">[topic]new.json</code></span>
+                            <span class="text-xs text-slate-500 mt-2 block">Loads questions with <code class="text-indigo-600 font-mono">type: "new"</code></span>
                         </label>
 
                         <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="typeAllCard">
                             <div class="flex items-center space-x-2">
-                                <input type="radio" name="testType" value="all" onchange="updateTypeUI()" class="text-indigo-600 focus:ring-indigo-500">
+                                <input type="radio" name="testType" value="all" onchange="updateFiltersAndPreview()" class="text-indigo-600 focus:ring-indigo-500">
                                 <span class="font-bold text-slate-800 text-sm">&#128203; Combined Bank</span>
                             </div>
-                            <span class="text-xs text-slate-500 mt-2 block">Loads both PYQ & New JSON files together</span>
+                            <span class="text-xs text-slate-500 mt-2 block">Combines both PYQ & New Mock questions</span>
                         </label>
                     </div>
                 </div>
@@ -131,24 +136,55 @@
                     <div>
                         <label class="block text-sm font-semibold text-slate-700 mb-2">2. Subject Category</label>
                         <select id="selectCategory" onchange="updateTopicOptions()" class="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            <option value="all">All Subjects (Full Length Test)</option>
                             <option value="GS">General Studies (GS)</option>
                             <option value="Maths">Maths</option>
                             <option value="English">English</option>
                             <option value="Reasoning">Reasoning</option>
-                            <option value="all">All Subjects (Full Length Test)</option>
                         </select>
                     </div>
 
                     <div>
                         <label class="block text-sm font-semibold text-slate-700 mb-2">3. Sub-Topic Target</label>
-                        <select id="selectTopic" onchange="loadQuestionsFromRepo()" class="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        <select id="selectTopic" onchange="updateFiltersAndPreview()" class="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                         </select>
+                    </div>
+                </div>
+
+                <!-- Randomization & Question Sampling Settings -->
+                <div class="mb-6 bg-indigo-50/50 p-4 rounded-xl border border-indigo-100">
+                    <label class="block text-sm font-semibold text-indigo-950 mb-3 flex items-center justify-between">
+                        <span>4. Randomization & Test Sampling</span>
+                        <span class="text-xs bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded font-bold">&#127922; Active Shuffling</span>
+                    </label>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">Number of Questions to Draw</label>
+                            <select id="selectQuestionLimit" onchange="updateFiltersAndPreview()" class="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                <option value="all">All Available Questions</option>
+                                <option value="10">Random 10 Questions</option>
+                                <option value="20" selected>Random 20 Questions</option>
+                                <option value="30">Random 30 Questions</option>
+                                <option value="50">Random 50 Questions</option>
+                                <option value="100">Random 100 Questions</option>
+                            </select>
+                        </div>
+                        <div class="space-y-2 pt-1">
+                            <label class="flex items-center space-x-2 text-xs font-semibold text-slate-700 cursor-pointer">
+                                <input type="checkbox" id="chkShuffleQuestions" checked class="rounded text-indigo-600 focus:ring-indigo-500">
+                                <span>Randomize Question Order (Fisher-Yates)</span>
+                            </label>
+                            <label class="flex items-center space-x-2 text-xs font-semibold text-slate-700 cursor-pointer">
+                                <input type="checkbox" id="chkShuffleOptions" checked class="rounded text-indigo-600 focus:ring-indigo-500">
+                                <span>Shuffle Option Choices (A, B, C, D)</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Exam Marking Pattern -->
                 <div class="mb-6">
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">4. Marking Scheme Pattern</label>
+                    <label class="block text-sm font-semibold text-slate-700 mb-2">5. Marking Scheme Pattern</label>
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
                         <label class="border-2 rounded-xl p-3.5 cursor-pointer flex flex-col justify-between transition hover:border-indigo-200" id="schemeCdsCard">
                             <div class="flex items-center space-x-2">
@@ -178,7 +214,7 @@
 
                 <!-- Execution Mode -->
                 <div class="mb-6">
-                    <label class="block text-sm font-semibold text-slate-700 mb-3">5. Test Execution Mode</label>
+                    <label class="block text-sm font-semibold text-slate-700 mb-3">6. Test Execution Mode</label>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <label class="border-2 rounded-xl p-4 cursor-pointer flex items-start space-x-3 transition hover:border-indigo-200" id="modeTimedCard">
                             <input type="radio" name="testMode" value="timed" checked onchange="toggleModeUI()" class="mt-1 text-indigo-600 focus:ring-indigo-500">
@@ -205,22 +241,22 @@
                     </div>
                 </div>
 
-                <!-- Repository Fetch Status Box -->
+                <!-- Repository Discovery Status Box -->
                 <div class="bg-indigo-50 border border-indigo-100 rounded-xl p-5 mb-8">
                     <div class="flex justify-between items-center mb-3">
-                        <h3 class="text-xs font-bold text-indigo-900 uppercase tracking-wider">Repository JSON Target Status</h3>
+                        <h3 class="text-xs font-bold text-indigo-900 uppercase tracking-wider">Repository Auto-Discovery Status</h3>
                         <button type="button" onclick="openJsonSchemaModal()" class="text-xs text-indigo-600 hover:text-indigo-800 font-semibold underline">
                             View JSON Schema Reference
                         </button>
                     </div>
 
-                    <div id="repoFetchStatus" class="bg-white p-3.5 rounded-lg border border-indigo-100 text-xs mb-3 font-mono text-slate-700">
-                        Initializing repository search...
+                    <div id="repoFetchStatus" class="bg-white p-3.5 rounded-lg border border-indigo-100 text-xs mb-3 font-mono text-slate-700 leading-relaxed max-h-32 overflow-y-auto">
+                        Scanning repository for question files...
                     </div>
 
-                    <div class="grid grid-cols-2 sm:grid-cols-5 gap-3 text-center">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 text-center">
                         <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm">
-                            <span class="text-xs text-slate-500 block">Loaded Questions</span>
+                            <span class="text-xs text-slate-500 block">Total Pool Matches</span>
                             <span id="previewQCount" class="text-base font-extrabold text-indigo-600">0</span>
                         </div>
                         <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm">
@@ -229,21 +265,25 @@
                         </div>
                         <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm">
                             <span class="text-xs text-slate-500 block">Subject</span>
-                            <span id="previewCategoryBadge" class="text-xs font-bold text-indigo-600 truncate block mt-1">GS</span>
+                            <span id="previewCategoryBadge" class="text-xs font-bold text-indigo-600 truncate block mt-1">All</span>
                         </div>
                         <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm">
                             <span class="text-xs text-slate-500 block">Topic</span>
-                            <span id="previewTopicBadge" class="text-xs font-bold text-indigo-600 truncate block mt-1">Geography</span>
+                            <span id="previewTopicBadge" class="text-xs font-bold text-indigo-600 truncate block mt-1">All</span>
+                        </div>
+                        <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm">
+                            <span class="text-xs text-slate-500 block">Marking Scheme</span>
+                            <span id="previewSchemeBadge" class="text-xs font-bold text-indigo-600 block mt-1">CDS</span>
                         </div>
                         <div class="bg-white p-2.5 rounded-lg border border-indigo-100 shadow-sm col-span-2 sm:col-span-1">
-                            <span class="text-xs text-slate-500 block">Pattern</span>
-                            <span id="previewSchemeBadge" class="text-xs font-bold text-indigo-600 block mt-1">CDS</span>
+                            <span class="text-xs text-slate-500 block">Random Test Size</span>
+                            <span id="previewTestSizeBadge" class="text-xs font-bold text-emerald-600 block mt-1">0 Qs</span>
                         </div>
                     </div>
                 </div>
 
                 <button onclick="startMockTest()" id="btnStartTest" disabled class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3.5 px-6 rounded-xl shadow-lg transition duration-200 text-base disabled:opacity-50 disabled:cursor-not-allowed">
-                    Start Test Assessment &#8594;
+                    Start Randomized Mock Test &#8594;
                 </button>
             </div>
         </section>
@@ -252,7 +292,7 @@
         <section id="viewExam" class="hidden">
             <div class="bg-white border border-slate-200 rounded-xl p-4 mb-4 text-xs text-slate-600 flex flex-wrap items-center justify-between gap-2">
                 <div>
-                    <strong>Exam Interface:</strong> Evaluate each question and select your response. Use the palette on the right to jump between questions.
+                    <strong>Randomized Exam Interface:</strong> Questions and options are randomly ordered. Jump between questions using the palette on the right.
                 </div>
                 <div class="flex items-center space-x-2 flex-wrap gap-1">
                     <span id="activeTypeBadge" class="bg-amber-100 text-amber-800 font-bold px-2.5 py-1 rounded-md text-xs">PYQ</span>
@@ -476,11 +516,11 @@
             </div>
 
             <div class="flex justify-center space-x-4 pt-4">
-                <button onclick="restartTest()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-3 rounded-xl shadow transition">
-                    Retake Test
+                <button onclick="restartTest()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-3 rounded-xl shadow transition flex items-center space-x-2">
+                    <span>&#127922;</span> <span>New Random Set</span>
                 </button>
                 <button onclick="confirmResetToSetup()" class="bg-white border border-slate-300 text-slate-700 hover:bg-slate-100 font-bold px-6 py-3 rounded-xl shadow-sm transition">
-                    Configure Another Mock
+                    Configure Another Test
                 </button>
             </div>
         </section>
@@ -515,29 +555,19 @@
                 <button onclick="closeJsonSchemaModal()" class="text-slate-400 hover:text-slate-700 text-lg font-bold">&times;</button>
             </div>
             <p class="text-xs text-slate-600 mb-3 leading-relaxed">
-                Save your file directly in your repository root (e.g., <code class="bg-slate-100 px-1.5 py-0.5 rounded text-indigo-600 font-mono font-bold">geographypyq.json</code>, <code class="bg-slate-100 px-1.5 py-0.5 rounded text-indigo-600 font-mono font-bold">arithmaticpyq.json</code>, or <code class="bg-slate-100 px-1.5 py-0.5 rounded text-indigo-600 font-mono font-bold">historynew.json</code>) formatted as a JSON array:
+                Save your questions in any file name like <code class="bg-slate-100 px-1.5 py-0.5 rounded text-indigo-600 font-mono font-bold">pyq1.json</code>, <code class="bg-slate-100 px-1.5 py-0.5 rounded text-indigo-600 font-mono font-bold">pyq2.json</code>, <code class="bg-slate-100 px-1.5 py-0.5 rounded text-indigo-600 font-mono font-bold">questions.json</code>, or <code class="bg-slate-100 px-1.5 py-0.5 rounded text-indigo-600 font-mono font-bold">geographypyq.json</code> directly in your repository root:
             </p>
             <pre class="bg-slate-900 text-slate-100 text-xs p-4 rounded-xl overflow-x-auto font-mono mb-4 leading-relaxed">
 [
   {
     "id": 1,
-    "type": "pyq",
-    "category": "GS",
-    "topic": "Geography",
+    "type": "pyq",            // "pyq" or "new"
+    "category": "GS",        // "GS", "Maths", "English", or "Reasoning"
+    "topic": "Geography",    // e.g., "Geography", "History", "Arithmetic", etc.
     "question": "Which river in peninsular India is popularly referred to as 'Dakshin Ganga'?",
     "options": ["Krishna", "Narmada", "Godavari", "Kaveri"],
-    "answer": 2,
+    "answer": 2,             // 0-indexed integer (0=A, 1=B, 2=C, 3=D)
     "explanation": "Godavari is the largest peninsular river system and is known as Dakshin Ganga."
-  },
-  {
-    "id": 2,
-    "type": "pyq",
-    "category": "Maths",
-    "topic": "Arithmetic",
-    "question": "A train running at 72 km/h crosses a telegraph pole in 12 seconds. What is its length?",
-    "options": ["200 meters", "240 meters", "180 meters", "300 meters"],
-    "answer": 1,
-    "explanation": "Speed in m/s = 72 * (5/18) = 20 m/s. Length = 20 * 12 = 240 meters."
   }
 ]
             </pre>
@@ -607,8 +637,12 @@
             }
         };
 
-        let loadedQuestionsBank = [];
-        let filteredQuestions = [];
+        // Master question bank gathered from all discovered JSON files
+        let masterRepoQuestions = [];
+        let discoveredFilesLog = [];
+        let matchingQuestionsPool = [];
+        let activeTestQuestions = [];
+
         let currentQIndex = 0;
         let userResponses = [];
         let markedForReview = [];
@@ -623,17 +657,111 @@
         let selectedTypeKey = 'pyq';
 
         document.addEventListener('DOMContentLoaded', () => {
-            updateTypeUI();
-            updateSchemeUI();
             updateTopicOptions();
+            updateSchemeUI();
             toggleModeUI();
+            scanRepositoryFiles();
         });
 
-        function updateTypeUI() {
-            selectedTypeKey = document.querySelector('input[name="testType"]:checked').value;
-            const badgeMap = { all: 'Combined', pyq: 'PYQ Test', new: 'New Mock' };
-            document.getElementById('previewTypeBadge').innerText = badgeMap[selectedTypeKey] || 'PYQ';
+        // Helper function: Fisher-Yates Shuffle
+        function shuffleArray(array) {
+            const arr = [...array];
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [arr[i], arr[j]] = [arr[j], arr[i]];
+            }
+            return arr;
+        }
 
+        // List of all candidate files to scan in the repository
+        function getCandidateFilenames() {
+            const files = [
+                'questions.json', 'pyq.json', 'master.json', 'new.json', 'data.json'
+            ];
+
+            // Add sequential PYQ and NEW files (pyq1.json ... pyq15.json)
+            for (let i = 1; i <= 15; i++) {
+                files.push(`pyq${i}.json`);
+                files.push(`new${i}.json`);
+            }
+
+            // Add topic-based filenames
+            Object.keys(SUBTOPICS).forEach(cat => {
+                SUBTOPICS[cat].forEach(sub => {
+                    files.push(`${sub.slug}pyq.json`);
+                    files.push(`${sub.slug}new.json`);
+                });
+            });
+
+            return Array.from(new Set(files));
+        }
+
+        async function scanRepositoryFiles() {
+            const statusBox = document.getElementById('repoFetchStatus');
+            const startBtn = document.getElementById('btnStartTest');
+            
+            statusBox.innerHTML = `Scanning repository for question files (<code class="text-indigo-600 font-bold">pyq1.json</code>, <code class="text-indigo-600 font-bold">pyq2.json</code>, <code class="text-indigo-600 font-bold">questions.json</code>, etc.)...`;
+            startBtn.disabled = true;
+
+            const candidateFiles = getCandidateFilenames();
+            masterRepoQuestions = [];
+            discoveredFilesLog = [];
+
+            const fetchPromises = candidateFiles.map(async (fileName) => {
+                try {
+                    const resp = await fetch(`./${fileName}`, { cache: 'no-cache' });
+                    if (resp.ok) {
+                        const data = await resp.json();
+                        if (Array.isArray(data) && data.length > 0) {
+                            return { fileName, questions: data };
+                        }
+                    }
+                } catch (e) {
+                    // Ignore non-existent files
+                }
+                return null;
+            });
+
+            const results = await Promise.all(fetchPromises);
+            
+            // Deduplicate questions across files using ID + Question text key
+            const seenQuestionKeys = new Set();
+
+            results.forEach(res => {
+                if (res) {
+                    let addedFromFile = 0;
+                    res.questions.forEach(q => {
+                        const key = `${q.id || ''}_${q.question ? q.question.trim().toLowerCase() : ''}`;
+                        if (!seenQuestionKeys.has(key)) {
+                            seenQuestionKeys.add(key);
+                            masterRepoQuestions.push(q);
+                            addedFromFile++;
+                        }
+                    });
+                    if (addedFromFile > 0) {
+                        discoveredFilesLog.push({ name: res.fileName, count: addedFromFile });
+                    }
+                }
+            });
+
+            if (discoveredFilesLog.length > 0) {
+                const logHTML = discoveredFilesLog.map(f => `<span class="bg-emerald-100 text-emerald-800 font-bold px-1.5 py-0.5 rounded text-[11px]">${f.name} (${f.count} Qs)</span>`).join(' ');
+                statusBox.className = "bg-emerald-50 p-3.5 rounded-lg border border-emerald-200 text-xs mb-3 font-mono text-emerald-900";
+                statusBox.innerHTML = `&#10004; <strong>Discovered ${masterRepoQuestions.length} unique questions</strong> across ${discoveredFilesLog.length} file(s):<br><div class="flex flex-wrap gap-1 mt-1.5">${logHTML}</div>`;
+            } else {
+                statusBox.className = "bg-rose-50 p-3.5 rounded-lg border border-rose-200 text-xs mb-3 font-mono text-rose-900";
+                statusBox.innerHTML = `&#9888; No valid JSON question files found in your repository.<br><span class="text-[11px] text-rose-700 mt-1 block">Upload files like <code class="font-bold">pyq1.json</code>, <code class="font-bold">pyq2.json</code>, or <code class="font-bold">questions.json</code> to your repo root.</span>`;
+            }
+
+            updateFiltersAndPreview();
+        }
+
+        function updateFiltersAndPreview() {
+            selectedTypeKey = document.querySelector('input[name="testType"]:checked').value;
+            const cat = document.getElementById('selectCategory').value;
+            const topicSlug = document.getElementById('selectTopic').value;
+
+            // Highlight selected Type card
             ['Pyq', 'Mock', 'All'].forEach(k => {
                 const card = document.getElementById(`type${k}Card`);
                 if (card) {
@@ -645,12 +773,62 @@
                     }
                 }
             });
-            loadQuestionsFromRepo();
+
+            // Filter master questions
+            matchingQuestionsPool = masterRepoQuestions.filter(q => {
+                // Filter by Type
+                if (selectedTypeKey !== 'all') {
+                    const qType = (q.type || 'pyq').toLowerCase();
+                    if (qType !== selectedTypeKey) return false;
+                }
+
+                // Filter by Category
+                if (cat !== 'all') {
+                    const qCat = (q.category || 'GS').toUpperCase();
+                    if (qCat !== cat.toUpperCase()) return false;
+                }
+
+                // Filter by Sub-Topic
+                if (topicSlug !== 'complete' && topicSlug !== 'all') {
+                    const qTopic = (q.topic || '').toLowerCase().replace(/\s+/g, '');
+                    const targetTopic = topicSlug.toLowerCase().replace(/\s+/g, '');
+                    if (!qTopic.includes(targetTopic) && !targetTopic.includes(qTopic)) return false;
+                }
+
+                return true;
+            });
+
+            // Calculate active test size limit
+            const limitVal = document.getElementById('selectQuestionLimit').value;
+            let activeTestSize = matchingQuestionsPool.length;
+            if (limitVal !== 'all') {
+                activeTestSize = Math.min(matchingQuestionsPool.length, parseInt(limitVal, 10));
+            }
+
+            // Update setup summary cards
+            document.getElementById('previewQCount').innerText = matchingQuestionsPool.length;
+            document.getElementById('previewTestSizeBadge').innerText = `${activeTestSize} Qs`;
+            const typeLabels = { pyq: 'PYQ Test', new: 'New Mocks', all: 'Combined Bank' };
+            document.getElementById('previewTypeBadge').innerText = typeLabels[selectedTypeKey] || 'PYQ';
+            document.getElementById('previewCategoryBadge').innerText = cat === 'all' ? 'All Subjects' : cat;
+
+            const selectedTopicText = document.getElementById('selectTopic').options[document.getElementById('selectTopic').selectedIndex]?.text || topicSlug;
+            document.getElementById('previewTopicBadge').innerText = (cat === 'all') ? 'All Topics' : selectedTopicText;
+
+            // Auto-calculate suggested test duration
+            const durationInput = document.getElementById('testDurationInput');
+            durationInput.value = Math.max(5, Math.round(activeTestSize * 1.5));
+
+            const startBtn = document.getElementById('btnStartTest');
+            startBtn.disabled = (matchingQuestionsPool.length === 0);
         }
 
         function updateSchemeUI() {
             selectedSchemeKey = document.querySelector('input[name="examScheme"]:checked').value;
-            document.getElementById('previewSchemeBadge').innerText = selectedSchemeKey.toUpperCase();
+            const schemeBadge = document.getElementById('previewSchemeBadge');
+            if (schemeBadge) {
+                schemeBadge.innerText = selectedSchemeKey.toUpperCase();
+            }
 
             ['Cds', 'Cse', 'Std'].forEach(k => {
                 const card = document.getElementById(`scheme${k}Card`);
@@ -682,83 +860,7 @@
                     topicSelect.appendChild(opt);
                 });
             }
-            loadQuestionsFromRepo();
-        }
-
-        async function loadQuestionsFromRepo() {
-            const cat = document.getElementById('selectCategory').value;
-            const topicSlug = document.getElementById('selectTopic').value;
-            const typeKey = selectedTypeKey;
-            const statusBox = document.getElementById('repoFetchStatus');
-            const startBtn = document.getElementById('btnStartTest');
-
-            let targetFiles = [];
-
-            function getTargetFilesForTopic(slug, tKey) {
-                const files = [];
-                if (tKey === 'pyq' || tKey === 'all') files.push(`./${slug}pyq.json`);
-                if (tKey === 'new' || tKey === 'all') files.push(`./${slug}new.json`);
-                return files;
-            }
-
-            if (cat === 'all' || topicSlug === 'complete') {
-                const categoryKeys = (cat === 'all') ? Object.keys(SUBTOPICS) : [cat];
-                categoryKeys.forEach(c => {
-                    SUBTOPICS[c].forEach(sub => {
-                        if (sub.slug !== 'complete') {
-                            targetFiles.push(...getTargetFilesForTopic(sub.slug, typeKey));
-                        }
-                    });
-                });
-            } else {
-                targetFiles = getTargetFilesForTopic(topicSlug, typeKey);
-            }
-
-            statusBox.innerHTML = `Fetching repository file(s): <span class="font-bold text-indigo-600">${targetFiles.join(', ')}</span>...`;
-            startBtn.disabled = true;
-
-            let loadedQuestions = [];
-            let successfulFiles = [];
-            let missingFiles = [];
-
-            for (const filePath of targetFiles) {
-                try {
-                    const response = await fetch(filePath, { cache: 'no-cache' });
-                    if (response.ok) {
-                        const data = await response.json();
-                        if (Array.isArray(data)) {
-                            loadedQuestions.push(...data);
-                            successfulFiles.push(filePath.replace('./', ''));
-                        }
-                    } else {
-                        missingFiles.push(filePath.replace('./', ''));
-                    }
-                } catch (err) {
-                    missingFiles.push(filePath.replace('./', ''));
-                }
-            }
-
-            loadedQuestionsBank = loadedQuestions;
-            filteredQuestions = [...loadedQuestionsBank];
-
-            document.getElementById('previewQCount').innerText = filteredQuestions.length;
-            document.getElementById('previewCategoryBadge').innerText = cat === 'all' ? 'All Subjects' : cat;
-            
-            const selectedTopicText = document.getElementById('selectTopic').options[document.getElementById('selectTopic').selectedIndex]?.text || topicSlug;
-            document.getElementById('previewTopicBadge').innerText = selectedTopicText;
-
-            const durationInput = document.getElementById('testDurationInput');
-            durationInput.value = Math.max(5, Math.round(filteredQuestions.length * 1.5));
-
-            if (filteredQuestions.length > 0) {
-                statusBox.className = "bg-emerald-50 p-3.5 rounded-lg border border-emerald-200 text-xs mb-3 font-mono text-emerald-900";
-                statusBox.innerHTML = `&#10004; Successfully loaded <strong>${filteredQuestions.length} questions</strong> from repository file(s): <span class="underline">${successfulFiles.join(', ')}</span>.`;
-                startBtn.disabled = false;
-            } else {
-                statusBox.className = "bg-rose-50 p-3.5 rounded-lg border border-rose-200 text-xs mb-3 font-mono text-rose-900";
-                statusBox.innerHTML = `&#9888; Could not find active questions. Missing repository JSON file(s): <span class="font-bold underline">${missingFiles.join(', ')}</span>.<br><span class="text-[11px] text-rose-700 mt-1 block">Please ensure these files are uploaded into your repository root folder!</span>`;
-                startBtn.disabled = true;
-            }
+            updateFiltersAndPreview();
         }
 
         function toggleModeUI() {
@@ -778,18 +880,49 @@
         }
 
         function startMockTest() {
-            if (filteredQuestions.length === 0) {
-                alert("No questions loaded from repository JSON files. Please check your file uploads.");
+            if (matchingQuestionsPool.length === 0) {
+                alert("No questions match the selected category and filter. Please rescan or adjust your options.");
                 return;
             }
+
+            const shouldShuffleQ = document.getElementById('chkShuffleQuestions').checked;
+            const shouldShuffleOpt = document.getElementById('chkShuffleOptions').checked;
+            const limitVal = document.getElementById('selectQuestionLimit').value;
+
+            // 1. Prepare raw pool copy
+            let preparedPool = matchingQuestionsPool.map(q => JSON.parse(JSON.stringify(q)));
+
+            // 2. Shuffle Question sequence if enabled
+            if (shouldShuffleQ) {
+                preparedPool = shuffleArray(preparedPool);
+            }
+
+            // 3. Slice to selected limit size
+            if (limitVal !== 'all') {
+                const targetCount = parseInt(limitVal, 10);
+                preparedPool = preparedPool.slice(0, targetCount);
+            }
+
+            // 4. Shuffle options within each question if enabled
+            if (shouldShuffleOpt) {
+                preparedPool.forEach(q => {
+                    if (Array.isArray(q.options) && q.options.length > 0 && typeof q.answer === 'number') {
+                        const correctText = q.options[q.answer];
+                        q.options = shuffleArray(q.options);
+                        q.answer = q.options.indexOf(correctText);
+                    }
+                });
+            }
+
+            activeTestQuestions = preparedPool;
 
             durationMinutes = parseInt(document.getElementById('testDurationInput').value, 10) || 15;
             timeRemainingSeconds = durationMinutes * 60;
             timeSpentSeconds = 0;
 
-            userResponses = new Array(filteredQuestions.length).fill(null);
-            markedForReview = new Array(filteredQuestions.length).fill(false);
-            visitedStatus = new Array(filteredQuestions.length).fill(false);
+            userResponses = new Array(activeTestQuestions.length).fill(null);
+            markedForReview = new Array(activeTestQuestions.length).fill(false);
+            visitedStatus = new Array(activeTestQuestions.length).fill(false);
             currentQIndex = 0;
 
             document.getElementById('viewSetup').classList.add('hidden');
@@ -800,7 +933,7 @@
             const schemeObj = SCHEME_RULES[selectedSchemeKey];
             document.getElementById('activeSchemeBadge').innerText = schemeObj.name;
             const typeLabel = selectedTypeKey === 'pyq' ? 'PYQ Test' : (selectedTypeKey === 'new' ? 'New Mock' : 'Combined Test');
-            document.getElementById('activeTypeBadge').innerText = typeLabel;
+            document.getElementById('activeTypeBadge').innerText = `${typeLabel} (${activeTestQuestions.length} Qs)`;
 
             const timerContainer = document.getElementById('timerContainer');
             if (isTimedMode) {
@@ -857,9 +990,9 @@
             currentQIndex = index;
             visitedStatus[index] = true;
 
-            const q = filteredQuestions[index];
+            const q = activeTestQuestions[index];
             document.getElementById('qNumberBadge').innerText = `Q ${index + 1}`;
-            document.getElementById('qTypeBadge').innerText = (q.type || 'MOCK').toUpperCase();
+            document.getElementById('qTypeBadge').innerText = (q.type || 'PYQ').toUpperCase();
             document.getElementById('qCategoryBadge').innerText = q.category || "GS";
             document.getElementById('qTopicBadge').innerText = q.topic || "General";
             document.getElementById('questionText').innerText = q.question;
@@ -901,7 +1034,7 @@
 
             document.getElementById('btnPrev').disabled = (index === 0);
             const btnNext = document.getElementById('btnNext');
-            if (index === filteredQuestions.length - 1) {
+            if (index === activeTestQuestions.length - 1) {
                 btnNext.innerText = "Review & Submit";
                 btnNext.onclick = openSubmitModal;
             } else {
@@ -929,7 +1062,7 @@
 
         function navigateQuestion(direction) {
             const target = currentQIndex + direction;
-            if (target >= 0 && target < filteredQuestions.length) {
+            if (target >= 0 && target < activeTestQuestions.length) {
                 loadQuestion(target);
             }
         }
@@ -937,7 +1070,7 @@
         function renderPaletteGrid() {
             const grid = document.getElementById('questionPaletteGrid');
             grid.innerHTML = '';
-            filteredQuestions.forEach((_, idx) => {
+            activeTestQuestions.forEach((_, idx) => {
                 const btn = document.createElement('button');
                 btn.id = `palette-btn-${idx}`;
                 btn.className = "palette-btn w-9 h-9 rounded-lg font-bold text-xs flex items-center justify-center border transition shadow-sm";
@@ -950,7 +1083,7 @@
 
         function updatePaletteGrid() {
             let answeredCount = 0;
-            filteredQuestions.forEach((_, idx) => {
+            activeTestQuestions.forEach((_, idx) => {
                 const btn = document.getElementById(`palette-btn-${idx}`);
                 if (!btn) return;
 
@@ -979,14 +1112,14 @@
                 btn.className = cls;
             });
 
-            document.getElementById('paletteCounter').innerText = `${answeredCount}/${filteredQuestions.length} Answered`;
+            document.getElementById('paletteCounter').innerText = `${answeredCount}/${activeTestQuestions.length} Answered`;
         }
 
         function openSubmitModal() {
             const answered = userResponses.filter(r => r !== null).length;
-            const unattempted = filteredQuestions.length - answered;
+            const unattempted = activeTestQuestions.length - answered;
             document.getElementById('submitModalSummary').innerText = 
-                `You answered ${answered} of ${filteredQuestions.length} questions. ${unattempted > 0 ? unattempted + ' question(s) unattempted.' : 'All questions attempted!'}`;
+                `You answered ${answered} of ${activeTestQuestions.length} questions. ${unattempted > 0 ? unattempted + ' question(s) unattempted.' : 'All questions attempted!'}`;
             document.getElementById('submitModal').classList.remove('hidden');
         }
 
@@ -1037,7 +1170,7 @@
             const catStats = {};
             const topicMatrix = {};
 
-            filteredQuestions.forEach((q, idx) => {
+            activeTestQuestions.forEach((q, idx) => {
                 const cat = q.category || "GS";
                 const top = q.topic || "General";
                 const rule = schemeObj.rules[cat] || schemeObj.rules.Default;
@@ -1073,7 +1206,7 @@
             let netScore = grossScore - totalPenalty;
             if (netScore < 0) netScore = 0;
 
-            const totalQ = filteredQuestions.length;
+            const totalQ = activeTestQuestions.length;
             const accuracyPct = (correctCount + wrongCount) > 0 
                 ? Math.round((correctCount / (correctCount + wrongCount)) * 100) 
                 : 0;
@@ -1200,7 +1333,7 @@
 
             const schemeObj = SCHEME_RULES[selectedSchemeKey];
 
-            filteredQuestions.forEach((q, idx) => {
+            activeTestQuestions.forEach((q, idx) => {
                 const userAns = userResponses[idx];
                 const isCorrect = (userAns === q.answer);
                 const isUnattempted = (userAns === null);
@@ -1248,7 +1381,7 @@
                     <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-3 flex-wrap gap-2">
                         <div class="flex items-center space-x-2">
                             <span class="text-xs font-bold text-slate-500">Question ${idx + 1}</span>
-                            <span class="bg-amber-100 text-amber-900 text-xs font-bold px-2 py-0.5 rounded">${(q.type || 'MOCK').toUpperCase()}</span>
+                            <span class="bg-amber-100 text-amber-900 text-xs font-bold px-2 py-0.5 rounded">${(q.type || 'PYQ').toUpperCase()}</span>
                             <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2 py-0.5 rounded">${q.category || 'GS'}</span>
                             <span class="bg-slate-200 text-slate-700 text-xs px-2 py-0.5 rounded">${q.topic || 'General'}</span>
                         </div>
